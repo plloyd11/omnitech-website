@@ -1,0 +1,38 @@
+.homepage--synopsis {
+    margin-top: -75px;
+    padding: 0 calc(50% - 600px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    @include mq(medium) {
+        flex-direction: row;
+        align-items: initial;
+    }
+    &_box {
+        margin-bottom: 2.25em;
+        padding: 30px;
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
+        @include mq(medium) {
+            margin-bottom: 0;
+            align-items: flex-start;
+        }
+        >h2 {
+            margin-top: 1.25em;
+            margin-bottom: .65em;
+            font-size: 28px;
+            line-height: 1.25;
+        }
+        > p {
+            text-align: center;
+            @include mq(medium) {
+                text-align: left;
+            }
+        }
+    }
+}

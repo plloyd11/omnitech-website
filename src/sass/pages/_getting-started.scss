@@ -1,0 +1,5 @@
+.getting-started {
+    &--hero {
+        @include hero-img(url('/img/getting-started-hero.jpg'));
+    }
+}

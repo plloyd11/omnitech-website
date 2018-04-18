@@ -1,0 +1,49 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'utilities/variables',
+  'utilities/functions',
+  'utilities/media-queries',
+  'utilities/responsive-embed',
+  'utilities/mixins';
+
+// 2. Vendors
+@import
+  'vendor/faq',
+  'vendor/reset';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/main-navigation',
+  'layout/footer',
+  'layout/global-layouts';
+
+// 5. Components
+@import
+  'components/buttons',
+  'components/ui-patterns';
+
+// 6. Page-specific styles
+@import
+  'pages/homepage/hero',
+  'pages/homepage/synopsis',
+  'pages/homepage/company',
+  'pages/homepage/pricing',
+  'pages/homepage/classes',
+  'pages/homepage/services',
+  'pages/homepage/clients',
+  'pages/contact',
+  'pages/team',
+  'pages/schedule',
+  'pages/getting-started',
+  'pages/events',
+  'pages/about',
+  'pages/teacher-training',
+  'pages/rates';

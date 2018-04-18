@@ -1,0 +1,16 @@
+{
+    "esversion": 6,
+    "node": true,
+    "browser": true,
+    "jquery": true,
+    "globals": {
+      "TweenMax": true,
+      "TimelineLite": true,
+      "Power1": true,
+      "TimelineMax": true
+    },
+    "predef": [
+      "describe",
+      "it"
+    ]
+  }

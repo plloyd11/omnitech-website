@@ -1,0 +1,65 @@
+.homepage--pricing {
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        @include mq (small) {
+            flex-direction: row;
+        }
+    }
+
+    &-item {
+        max-width: 500px;
+        height: 500px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:nth-of-type(1) {
+            border: 1px solid $primary-color;
+        }
+
+        &:nth-of-type(2) {
+            color: #fff;
+            background-color: $primary-color;
+        }
+
+        > h3 {
+            font-size: 2rem;
+            margin-bottom: 1em;
+        }
+
+        > p {
+            margin-bottom: 0;
+
+            &:first-of-type {
+                font-size: 3rem;
+                letter-spacing: 1px;
+            }
+
+            &:nth-of-type(2) {
+                font-size: 1.5rem;
+            }
+        }
+
+        > div {
+            margin-top: 2em;
+
+            > p {
+                margin-bottom: 0;
+            }
+        }
+        &-single {
+          > p {
+            padding: 0 4em;
+            line-height: 1.7;
+          }
+        }
+    }
+}

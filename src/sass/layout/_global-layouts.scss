@@ -1,0 +1,37 @@
+.global {
+    &--content_block {
+        display: flex;
+        justify-content: space-between;
+    }
+    &--content_text {
+        max-width: 375px;
+        position: relative;
+        > h3 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+        > p {
+            margin: 20px 0 40px;
+            font-size: 18px;
+            color: #2F3640;
+        }
+    }
+}
+
+.hr-content_horizontal {
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid $primary-color;
+}
+
+.hr-content_vertical {
+    width: 0;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    margin: 0;
+    height: 100px;
+    border: 2px solid $primary-color;
+}

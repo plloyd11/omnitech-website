@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Solid/envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.6210938,9.453125 C21.7734375,9.33203125 22,9.4453125 22,9.63671875 L22,17.625 C22,18.6601563 21.1601562,19.5 20.125,19.5 L3.875,19.5 C2.83984375,19.5 2,18.6601563 2,17.625 L2,9.640625 C2,9.4453125 2.22265625,9.3359375 2.37890625,9.45703125 C3.25390625,10.1367188 4.4140625,11 8.3984375,13.8945313 C9.22265625,14.4960938 10.6132812,15.7617188 12,15.7539063 C13.3945312,15.765625 14.8125,14.4726563 15.6054688,13.8945313 C19.5898438,11 20.7460938,10.1328125 21.6210938,9.453125 Z M12,14.5 C12.90625,14.515625 14.2109375,13.359375 14.8671875,12.8828125 C20.0507812,9.12109375 20.4453125,8.79296875 21.640625,7.85546875 C21.8671875,7.6796875 22,7.40625 22,7.1171875 L22,6.375 C22,5.33984375 21.1601562,4.5 20.125,4.5 L3.875,4.5 C2.83984375,4.5 2,5.33984375 2,6.375 L2,7.1171875 C2,7.40625 2.1328125,7.67578125 2.359375,7.85546875 C3.5546875,8.7890625 3.94921875,9.12109375 9.1328125,12.8828125 C9.7890625,13.359375 11.09375,14.515625 12,14.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="homepage" transform="translate(-934.000000, -5221.000000)">
+            <g id="footer" transform="translate(0.000000, 4827.000000)">
+                <g id="Group" transform="translate(132.000000, 50.000000)">
+                    <g id="contact-section-copy" transform="translate(800.000000, 53.000000)">
+                        <g id="Icons/Solid/envelope" transform="translate(0.000000, 287.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="envelope" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Colors/5th" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

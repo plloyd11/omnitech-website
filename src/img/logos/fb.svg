@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Flat_copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-860.000000, -6047.000000)" fill-rule="nonzero">
+            <g id="footer" transform="translate(0.000000, 5882.000000)">
+                <g id="bottom-footer">
+                    <g id="center" transform="translate(794.000000, 100.000000)">
+                        <g id="fb" transform="translate(66.000000, 65.000000)">
+                            <g id="Flat_copy">
+                                <path d="M18,0 C8.058375,0 0,8.058375 0,18 C0,27.9405 8.058375,36 18,36 C27.941625,36 36,27.9405 36,18 C36,8.058375 27.941625,0 18,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M15.40125,28.015875 L19.540125,28.015875 L19.540125,17.998875 L22.300875,17.998875 L22.6665,14.547375 L19.540125,14.547375 L19.544625,12.819375 C19.544625,11.919375 19.630125,11.43675 20.921625,11.43675 L22.647375,11.43675 L22.647375,7.984125 L19.8855,7.984125 C16.567875,7.984125 15.40125,9.65925 15.40125,12.475125 L15.40125,14.547375 L13.3335,14.547375 L13.3335,18 L15.40125,18 L15.40125,28.015875 L15.40125,28.015875 Z" id="Shape" fill="#43474D"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

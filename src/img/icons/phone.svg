@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Solid/phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.2733127,2.96151298 L17.2108127,2.02413017 C16.7688596,1.92213798 16.3171018,2.15116142 16.1383127,2.56830986 L14.2633127,6.94319267 C14.098778,7.32711503 14.2080802,7.77357872 14.5313596,8.03807548 L16.8992111,9.97541923 C15.4940158,12.9705364 13.0344455,15.464013 9.97542207,16.8991692 L8.03807832,14.5313567 C7.77358157,14.2080774 7.32711787,14.0987751 6.94319551,14.2633099 L2.5683127,16.1383099 C2.15128145,16.3170208 1.92210176,16.7687395 2.02413301,17.2108099 L2.96151582,21.2733099 C3.0589377,21.6954583 3.43546114,21.9999895 3.87499239,21.9999895 C13.8783908,21.9999895 21.9999924,13.8932708 21.9999924,3.87498954 C21.9999924,3.43842704 21.6986643,3.05963798 21.2733127,2.96151298 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="homepage" transform="translate(-934.000000, -5111.000000)">
+            <g id="footer" transform="translate(0.000000, 4827.000000)">
+                <g id="Group" transform="translate(132.000000, 50.000000)">
+                    <g id="contact-section-copy" transform="translate(800.000000, 53.000000)">
+                        <g id="Icons/Solid/phone" transform="translate(0.000000, 179.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="phone" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Colors/5th" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

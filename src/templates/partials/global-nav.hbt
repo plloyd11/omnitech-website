@@ -1,0 +1,16 @@
+<header class="global--main-nav container animated">
+    <div class="global--main-nav-left">
+        <a href="/"><img src="/img/logos/logo.png"></a>
+    </div>
+    <nav class="global--main-nav-right">
+        <a href="/about/" class="global--main-nav-item animsition-link">Products</a>
+        <a href="/schedule/" class="global--main-nav-item animsition-link">Capabilities</a>
+        <a href="/events/" class="global--main-nav-item animsition-link">Services</a>
+        <a href="/rates/" class="global--main-nav-item animsition-link">Gallery</a>
+        <a href="/our-team/" class="global--main-nav-item animsition-link">About Us</a>
+        <a href="/contact/" class="global--main-nav-item animsition-link">Contact</a>
+    </nav>
+    <nav class="global--main-nav-mobile">
+      <button class="nav-cta mobile-menu-btn">Menu</button>
+    </nav>
+</header>

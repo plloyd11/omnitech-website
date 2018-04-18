@@ -1,0 +1,116 @@
+.teacher-training {
+  h2 {
+    margin-bottom: 2em;
+  }
+
+  &--content {
+    &-row {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      @include mq(small) {
+        flex-direction: row;
+      }
+
+      > div {
+        flex: 1;
+
+        &:first-of-type {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  &--mentors {
+    &-headshots {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      @include mq(small) {
+        flex-direction: row;
+      }
+
+      img {
+        width: 220px;
+        margin-bottom: 2em;
+      }
+    }
+  }
+
+  &--callout {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('/img/meditate.jpg') no-repeat center center;
+    background-size: cover;
+
+    > div {
+      max-width: 450px;
+      margin-right: 15%;
+    }
+
+    p {
+      font-size: 20px;
+      text-align: right;
+      line-height: 1.7;
+      color: #fff;
+    }
+  }
+
+  &--info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    @include mq (medium) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    &-box {
+      max-width: 350px;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+
+      &:first-of-type {
+        margin-bottom: 3em;
+        @include mq (medium) {
+          margin-bottom: 0;
+        }
+      }
+
+      h2 {
+        margin-top: 0.75em;
+        text-align: center;
+      }
+
+      p {
+        font-size: 17px;
+        text-align: left;
+      }
+    }
+  }
+
+  &--sign-up {
+    text-align: center;
+
+    p {
+      margin-bottom: 2em;
+    }
+
+    .teacher-training-purchase {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .deposit-link {
+      color: $primary-color;
+    }
+  }
+}

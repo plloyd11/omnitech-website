@@ -1,0 +1,13 @@
+.homepage--clients_logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    @include mq(small) {
+        flex-direction: row;
+    }
+    > img {
+        width: 200px;
+        height: 100%;
+    }
+}

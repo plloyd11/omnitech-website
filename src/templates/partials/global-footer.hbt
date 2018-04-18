@@ -1,0 +1,40 @@
+<footer class="global--footer">
+    <div class="global--footer-wrapper wrapper">
+        <div class="global--footer-overview">
+            <a href="/"><img src="/img/logos/logo.png" alt="Omnitech Logo"></a>
+            <p>Automated Equipment <br> Precision Craftsmanship</p>
+        </div>
+        <div class="global--footer-nav">
+            <h3 class="footer-header">Company</h3>
+            <a href="">Company Background</a>
+            <a href="">Testimonials</a>
+            <a href="">Directions</a>
+            <a href="">Links</a>
+            <a href="">Brochure</a>
+        </div>
+        <div class="global--footer-contact">
+            <h3 class="footer-header">Contact</h3>
+            <div>
+                <img src="/img/icons/map-pin.svg" alt="">
+                <div class="global--footer-contact-info">
+                    <p>OMNITECH Automation, Inc.</p>
+                    <p>316 Wood Street</p>
+                    <p>Emmaus, PA 18049</p>
+                </div>
+            </div>
+            <div>
+                <img src="/img/icons/phone.svg" alt="">
+                <p>610-965-3279</p>
+            </div>
+            <div>
+                <img src="/img/icons/fax.svg" alt="">
+                <p>610-965-4019</p>
+            </div>
+            <div>
+                <img src="/img/icons/envelope.svg" alt="">
+                <a href="#">general_info@oai-automation.com</a>
+            </div>
+        </div>
+    </div>
+    <p class="txt-center">Copyright © 2018 Omnitech Automation. All rights reserved.</p>
+</footer>

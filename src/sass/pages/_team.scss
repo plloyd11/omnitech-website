@@ -1,0 +1,70 @@
+.team {
+    &--hero {
+        @include hero-img(url('/img/team-hero.jpg'));
+    }
+
+    &--intro {
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+
+    &--callout {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('/img/team-callout.jpg') no-repeat center center;
+        background-size: cover;
+
+        h2 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+
+    &--individual {
+        margin-top: 1.25em;
+        margin-bottom: 1.25em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include mq(small) {
+            margin-top: 2.75em;
+            margin-bottom: 2.75em;
+            flex-direction: row;
+        }
+
+        &-img {
+            margin-bottom: 1.25em;
+            flex: 1;
+            flex-basis: 100px;
+            order: 1;
+            @include mq(small) {
+                margin-bottom: 0;
+                order: inherit;
+            }
+
+            > img {
+                max-width: 300px;
+                border-radius: 50%;
+                @include mq(small) {
+                    max-width: 100%;
+                }
+            }
+        }
+
+        &-bio {
+            padding-left: 1.75em;
+            padding-right: 1.75em;
+            flex: 2;
+            order: 2;
+            @include mq(small) {
+                order: inherit;
+            }
+        }
+    }
+}

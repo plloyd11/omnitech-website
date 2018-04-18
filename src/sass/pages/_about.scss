@@ -1,0 +1,98 @@
+.about {
+  &--hero {
+    @include hero-img(url('/img/about-hero.jpg'));
+  }
+
+  &--callout {
+    width: 100%;
+    padding: 2.25em 0.75em;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include mq (small) {
+      height: 55vh;
+      padding: 0;
+    }
+
+    p {
+      position: relative;
+      color: #fff;
+      font-size: 0.95rem;
+      line-height: 1.25;
+      text-align: center;
+      z-index: 10;
+
+      &:nth-of-type(2) {
+        margin-bottom: 0;
+      }
+      @include mq (small) {
+        font-size: 1.15rem;
+        line-height: 1.5;
+      }
+    }
+    // &::after {
+    //     content: '';
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: hsla(186, 63%, 67%,.7);
+    // }
+  }
+
+  &--cta {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @include mq (small) {
+      flex-direction: row;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &:first-of-type {
+        margin-bottom: 1.5em;
+        @include mq (small) {
+          margin-bottom: 0;
+        }
+      }
+
+      > h3 {
+        margin-top: 1em;
+      }
+
+      .melody-pose {
+        width: 225px;
+        @include mq (small) {
+          width: 430px;
+        }
+      }
+
+      .ina-pose {
+        width: 225px;
+        @include mq (small) {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+.callout-1 {
+  background-image: url('/img/callout-1.jpg');
+}
+
+.callout-2 {
+  background-image: url('/img/callout-2.jpg');
+}
