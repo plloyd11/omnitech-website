@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Brands/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24.3599993,4.88921861 L24.3599993,22.9462493 C24.3599993,23.5670306 23.84266,24.0654681 23.2088029,24.0654681 L17.8862673,24.0654681 L17.8862673,16.2082808 L20.598803,16.2082808 L21.0042851,13.1451559 L17.8816066,13.1451559 L17.8816066,11.1876559 C17.8816066,10.299531 18.1332852,9.69687472 19.4429459,9.69687472 L21.1114815,9.69687472 L21.1114815,6.95546855 C20.8225173,6.91921855 19.8344459,6.8331248 18.6785887,6.8331248 C16.2736602,6.8331248 14.6237674,8.26046851 14.6237674,10.8840622 L14.6237674,13.1451559 L11.9019104,13.1451559 L11.9019104,16.2082808 L14.6237674,16.2082808 L14.6237674,24.0699993 L4.6311963,24.0699993 C3.99733917,24.0699993 3.4799999,23.5670306 3.4799999,22.9507806 L3.4799999,4.88921861 C3.4799999,4.27296863 3.99733917,3.76999989 4.6311963,3.76999989 L23.2041422,3.76999989 C23.84266,3.76999989 24.3599993,4.27296863 24.3599993,4.88921861 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage" transform="translate(-183.000000, -5079.000000)">
+            <g id="footer" transform="translate(0.000000, 4827.000000)">
+                <g id="Group" transform="translate(132.000000, 50.000000)">
+                    <g id="logo-section" transform="translate(0.000000, 50.000000)">
+                        <g id="social-media-copy" transform="translate(0.000000, 149.000000)">
+                            <g id="Icons/Brands/facebook" transform="translate(48.000000, 0.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="facebook" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="Colors/5th" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                    <rect id="Rectangle" x="0" y="0" width="27.9436863" height="27.9436863"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

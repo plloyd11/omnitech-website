@@ -1,13 +1,64 @@
-.homepage--clients_logos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    @include mq(small) {
-        flex-direction: row;
+.homepage--clients {
+    &_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include mq(medium) {
+            flex-direction: row;
+        }
     }
-    > img {
-        width: 200px;
-        height: 100%;
+    &_content {
+        flex: 1;
+        > p {
+            max-width: 550px;
+            margin-bottom: 40px;
+            text-align: center;
+            @include mq(medium) {
+                text-align: left;
+            }
+        }
+        > a {
+            display: block;
+            text-align: center;
+            @include mq(medium) {
+                text-align: left;
+            }
+        }
+    }
+    &_testimony {
+        margin-top: 3.25em;
+        padding: 50px 40px;
+        max-width: 450px;
+        flex: 1;
+        background: #FFFFFF;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+        text-align: center;
+        @include mq(medium) {
+            margin-top: 0;
+        }
+        > h3 {
+            font-size: 28px;
+            color: #2F3640;
+        }
+        > p {
+            max-width: 375px;
+            margin: 20px auto;
+        }
+        img {
+            margin: 0 auto 10px;
+        }
+    }
+    &_logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        @include mq(medium) {
+            flex-direction: row;
+        }
+        > img {
+            width: 200px;
+            height: 100%;
+        }
     }
 }

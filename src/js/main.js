@@ -27,3 +27,5 @@ $("header").headroom("destroy");
 $('.mobile-menu-btn').on('click', function() {
     $('.global--main-nav-right').toggleClass('mobile-menu-open');
 });
+
+new WOW().init();

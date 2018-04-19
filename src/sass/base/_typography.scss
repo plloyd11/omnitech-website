@@ -30,6 +30,11 @@ p {
 }
 
 .footer-header {
+  margin: 15px 0 30px;
   font-size: 22px;
   color: #FFFFFF;
+  text-align: center;
+  @include mq(medium) {
+    text-align: left;
+  }
 }

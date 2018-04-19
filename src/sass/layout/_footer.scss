@@ -2,92 +2,105 @@
   width: 100%;
   color: #fff;
   background-color: #000;
-
   &-wrapper {
     padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @include mq (small) {
+    @include mq (medium) {
       flex-direction: row;
-    }
-
-    > div {
-      flex: 1;
     }
   }
 
+  // Overview Section
+
   &-overview {
     margin-top: 1.25em;
-    @include mq (small) {
+    @include mq (medium) {
       margin-top: 0;
       margin-right: 2.25em;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
     }
-
+    >p {
+      margin: 10px 0 30px;
+      text-align: center;
+      @include mq (medium) {
+        text-align: left;
+      }
+    }
+    &_icons {
+      display: flex;
+      justify-content: center;
+      >img {
+        width: 32px;
+        height: 32px;
+        margin-right: 20px;
+      }
+    }
     a {
       img {
         width: 200px;
         margin: 0 auto 0.35em;
       }
     }
-
-    &-icons {
-      margin-top: 1.25em;
-      display: flex;
-      justify-content: center;
-      @include mq (small) {
-        margin-top: 0;
-      }
-
-      .social-icon {
-        width: 40px;
-        margin-left: 0.25em;
-        margin-right: 0.25em;
-      }
-    }
   }
 
+  // Nav Section
+
   &-nav {
+    margin-top: 1.25em;
     display: flex;
     flex-direction: column;
- 
-    > a {
+    @include mq (medium) {
+      margin-top: 0;
+      border-top: 1px solid $primary-color;
+    }
+    >a {
       margin: 0;
       line-height: 1.5;
       text-align: center;
+      text-transform: uppercase;
       color: hsla(0, 0%, 100%, .6);
-      @include mq (small) {
+      @include mq (medium) {
+        margin-bottom: 20px;
         text-align: left;
-        font-size: 18px;
+        font-size: 16px;
       }
     }
-
-    > small {
+    >small {
       display: block;
       text-align: center;
-      @include mq (small) {
+      @include mq (medium) {
         text-align: left;
       }
     }
   }
+
+  // Contact Section
 
   &-contact {
     margin-top: 1.25em;
     text-align: center;
-    @include mq (small) {
+    @include mq (medium) {
       margin-top: 0;
       text-align: left;
+      border-top: 1px solid $primary-color;
     }
-    &-info{
+    &-info {
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
     }
-    > div {
+    >div {
+      max-width: 290px;
+      margin: 0 auto 30px;
       display: flex;
+      >img {
+        margin-right: 20px;
+      }
     }
   }
 }

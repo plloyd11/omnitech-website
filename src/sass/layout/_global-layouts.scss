@@ -1,11 +1,28 @@
 .global {
     &--content_block {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
+        @include mq (medium) {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+    }
+    &--content_img {
+        order: 2;
+        @include mq(medium) {
+            order: inherit;
+        }
     }
     &--content_text {
-        max-width: 375px;
+        max-width: 475px;
         position: relative;
+        order: 1;
+        @include mq(medium) {
+            max-width: 375px;
+            order: inherit;
+        }
         > h3 {
             font-size: 26px;
             font-weight: 600;

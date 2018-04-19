@@ -3,6 +3,11 @@
         <div class="global--footer-overview">
             <a href="/"><img src="/img/logos/logo.png" alt="Omnitech Logo"></a>
             <p>Automated Equipment <br> Precision Craftsmanship</p>
+            <div class="global--footer-overview_icons">
+                <img src="/img/icons/linkedin.svg" alt="LinkedIn logo">
+                <img src="/img/icons/facebook.svg" alt="Facebook logo">
+                <img src="/img/icons/google-plus-square.svg" alt="Google logo">
+            </div>
         </div>
         <div class="global--footer-nav">
             <h3 class="footer-header">Company</h3>
