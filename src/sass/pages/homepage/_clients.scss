@@ -12,12 +12,21 @@
             flex-direction: row;
         }
     }
+    .wrapper_wide {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        > h2 {
+            color: #fff;
+        }
+    }
     &_content {
         flex: 1;
         > p {
-            max-width: 550px;
+            max-width: 450px;
             margin-bottom: 40px;
             text-align: center;
+            color: #fff;
+            line-height: 1.5;
             @include mq(medium) {
                 text-align: left;
             }
@@ -60,6 +69,9 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        &:first-of-type {
+            margin-bottom: 2.5em;
+        }
         @include mq(medium) {
             flex-direction: row;
         }

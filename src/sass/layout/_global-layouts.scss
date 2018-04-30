@@ -10,6 +10,7 @@
         }
     }
     &--content_img {
+        max-width: 486px;
         order: 2;
         @include mq(medium) {
             order: inherit;
@@ -28,7 +29,6 @@
             font-weight: 600;
         }
         > p {
-            margin: 20px 0 40px;
             font-size: 18px;
             color: #2F3640;
         }
