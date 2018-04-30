@@ -14,8 +14,6 @@
             <a href="">Company Background</a>
             <a href="">Testimonials</a>
             <a href="">Directions</a>
-            <a href="">Links</a>
-            <a href="">Brochure</a>
         </div>
         <div class="global--footer-contact">
             <h3 class="footer-header">Contact</h3>
@@ -41,5 +39,5 @@
             </div>
         </div>
     </div>
-    <p class="txt-center">Copyright © 2018 Omnitech Automation. All rights reserved.</p>
+    <small class="txt-center">Copyright © 2018 Omnitech Automation. All rights reserved.</small>
 </footer>

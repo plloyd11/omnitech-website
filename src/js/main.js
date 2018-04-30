@@ -29,3 +29,25 @@ $('.mobile-menu-btn').on('click', function() {
 });
 
 new WOW().init();
+
+// Homepage Slider
+
+$(function() {
+    $('.slide').slide({
+      isAutoSlide: true,                
+      isHoverStop: false,                
+      isBlurStop: false,                 
+      isShowDots: false,                 
+      isShowArrow: true,                
+      isHoverShowArrow: true,
+      isLoadAllImgs: false,            
+      slideSpeed: 5000,
+      switchSpeed: 500,
+      dotsClass: 'dots',
+      dotActiveClass: 'active',
+      dotsEvent: 'click',
+      arrowClass: 'arrow',
+      arrowLeftClass: 'arrow-left',     
+      arrowRightClass: 'arrow-right'    
+    });
+  });

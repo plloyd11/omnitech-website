@@ -1,30 +1,5 @@
-.homepage--callout {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('/img/studio-meditating-mobile.jpg') no-repeat center center;
-    background-size: cover;
-    @include mq (small) {
-        height: 700px;
-        background: url('/img/studio-meditating.jpg') no-repeat center center;
-        background-size: cover;
-    }
-
-    .text-wrapper {
-        color: #fff;
-        text-align: left;
-
-        > p {
-            font-size: 1rem;
-            line-height: 1;
-            @include mq (small) {
-                padding-right: 16.5em;
-                font-size: 1.15rem;
-                line-height: 1.5;
-                font-weight: 400;
-            }
-        }
+.homepage--company {
+    img {
+        max-width: 500px;
     }
 }

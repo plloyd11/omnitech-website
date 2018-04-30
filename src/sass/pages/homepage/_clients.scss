@@ -1,8 +1,13 @@
-.homepage--clients {
+.homepage--testimonies {
+    background-size: cover;
+    background-image: url('/img/cad.png');
+    background-position: center center;
+    background-repeat: repeat;
     &_wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         @include mq(medium) {
             flex-direction: row;
         }
@@ -19,16 +24,13 @@
         }
         > a {
             display: block;
-            text-align: center;
-            @include mq(medium) {
-                text-align: left;
-            }
+            max-width: 158px;
         }
     }
     &_testimony {
         margin-top: 3.25em;
-        padding: 50px 40px;
-        max-width: 450px;
+        padding: 40px 25px;
+        max-width: 325px;
         flex: 1;
         background: #FFFFFF;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
@@ -37,17 +39,22 @@
             margin-top: 0;
         }
         > h3 {
-            font-size: 28px;
+            font-size: 22px;
+            line-height: 1.35;
             color: #2F3640;
         }
         > p {
-            max-width: 375px;
+            max-width: 325px;
             margin: 20px auto;
         }
         img {
             margin: 0 auto 10px;
         }
     }
+
+}
+
+.homepage--clients {
     &_logos {
         display: flex;
         flex-direction: column;
