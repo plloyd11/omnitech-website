@@ -12,7 +12,8 @@ h6 {
 a,
 li,
 p,
-small {
+small,
+label {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -36,5 +37,16 @@ p {
   text-align: center;
   @include mq(medium) {
     text-align: left;
+  }
+}
+
+.page-title {
+  margin-left: 9px;
+  font-size: 32px;
+}
+
+.link-dark {
+  &:hover {
+    color: darken($primary-color, 15%);
   }
 }

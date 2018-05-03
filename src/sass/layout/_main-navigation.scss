@@ -31,8 +31,8 @@
     }
 
     &-item {
-        padding-left: 0.65em;
-        padding-right: 0.65em;
+        padding-left: 0.85em;
+        padding-right: 0.85em;
         color: #fff;
         text-transform: uppercase;
         font-size: 1rem;
@@ -41,6 +41,10 @@
             color: #A0A4B8;
             text-decoration: none;
         }
+    }
+    .nav-contact {
+        background: $primary-color;
+        padding: .65em .85em;
     }
 
     &-mobile {

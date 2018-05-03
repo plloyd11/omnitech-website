@@ -12,6 +12,7 @@
 @import
   'vendor/faq',
   'vendor/slider',
+  'vendor/gallery',
   'vendor/reset';
 
 // 3. Base stuff
@@ -29,6 +30,7 @@
 // 5. Components
 @import
   'components/buttons',
+  'components/forms',
   'components/ui-patterns';
 
 // 6. Page-specific styles
@@ -41,10 +43,10 @@
   'pages/homepage/services',
   'pages/homepage/clients',
   'pages/contact',
-  'pages/team',
+  'pages/services',
   'pages/schedule',
   'pages/getting-started',
-  'pages/events',
+  'pages/gallery',
   'pages/about',
   'pages/teacher-training',
   'pages/rates';

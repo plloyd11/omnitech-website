@@ -2,6 +2,7 @@
     @include hero-img(url('/img/hero.jpg'));
     &-content {
         color: #fff;
+        z-index: 100000;
         >h1 {
             font-size: 28px;
             line-height: 1.35;

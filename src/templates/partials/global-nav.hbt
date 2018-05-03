@@ -3,12 +3,12 @@
         <a href="/"><img src="/img/logos/logo.png"></a>
     </div>
     <nav class="global--main-nav-right">
-        <a href="/#/" class="global--main-nav-item animsition-link">Products</a>
-        <a href="/#/" class="global--main-nav-item animsition-link">Capabilities</a>
-        <a href="/#/" class="global--main-nav-item animsition-link">Services</a>
-        <a href="/#/" class="global--main-nav-item animsition-link">Gallery</a>
-        <a href="/#/" class="global--main-nav-item animsition-link">About Us</a>
-        <a href="/#/" class="global--main-nav-item animsition-link">Contact</a>
+        <a href="#" class="global--main-nav-item">Products</a>
+        <a href="#" class="global--main-nav-item">Capabilities</a>
+        <a href="/services" class="global--main-nav-item">Services</a>
+        <a href="/gallery" class="global--main-nav-item">Gallery</a>
+        <a href="/about-us" class="global--main-nav-item">About Us</a>
+        <a href="/contact" class="global--main-nav-item nav-contact">Contact</a>
     </nav>
     <nav class="global--main-nav-mobile">
       <button class="nav-cta mobile-menu-btn">Menu</button>

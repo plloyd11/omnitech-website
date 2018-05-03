@@ -1,0 +1,12 @@
+.gallery {
+    .content-page_hero {
+        @include content-hero-img(url('/img/gallery-hero.jpg'));
+    }
+    &--intro {
+        padding-top: 3em;
+    }
+    &--navigation {
+        margin-bottom: 100px;
+        display: flex;
+    }
+}

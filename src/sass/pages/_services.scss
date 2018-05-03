@@ -1,0 +1,41 @@
+.services {
+    .content-page_hero {
+        @include content-hero-img(url('/img/services-hero.jpg'));
+    }
+    &--synopsis {
+        display: flex;
+        justify-content: space-between;
+    }
+    &--guarentee {
+        display: flex;
+        > div {
+            &:nth-of-type(2){
+                
+            }
+        }
+    }
+}
+
+.services-icons {
+    &_row {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > div {
+            margin-left: 50px;
+            margin-right: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    p {
+        margin-top: 15px;
+        max-width: 200px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
