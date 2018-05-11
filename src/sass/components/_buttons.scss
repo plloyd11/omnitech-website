@@ -30,7 +30,16 @@
 
 .btn-ghost {
     background: inherit;
-    border: 1px solid #fff;
+    border-width: 0.125em;
+    border-style: solid;
+    border-color: $primary-color;
+    color: $primary-color;
+    text-transform: capitalize;
+    padding: 0.6875em 2.55em;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    &:hover {
+        border-color: darken($primary-color, 15%);
+    }
 }
 
 .btn-submit {

@@ -3,6 +3,7 @@
     background-image: url('/img/cad.png');
     background-position: center center;
     background-repeat: repeat;
+    margin-bottom: 3em;
     &_wrapper {
         display: flex;
         flex-direction: column;
@@ -22,7 +23,7 @@
     &_content {
         flex: 1;
         > p {
-            max-width: 450px;
+            max-width: 625px;
             margin-bottom: 40px;
             text-align: center;
             color: #fff;
@@ -38,7 +39,7 @@
     }
     &_testimony {
         margin-top: 3.25em;
-        padding: 40px 25px;
+        padding: 1.75em;
         max-width: 325px;
         flex: 1;
         background: #FFFFFF;
@@ -64,6 +65,7 @@
 }
 
 .homepage--clients {
+    margin-bottom: 3em;
     &_logos {
         display: flex;
         flex-direction: column;
@@ -73,10 +75,11 @@
             margin-bottom: 2.5em;
         }
         @include mq(medium) {
-            flex-direction: row;
+            // flex-direction: row;
+            flex-direction: column;
         }
         > img {
-            width: 200px;
+            width: 1000px;
             height: 100%;
         }
     }

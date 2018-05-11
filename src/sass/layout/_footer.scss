@@ -12,16 +12,16 @@
       flex-direction: row;
     }
   }
-
-  > small {
+  >small {
     display: block;
     font-size: 14px;
     padding-bottom: 1%;
-  }
-
-  // Overview Section
-
+  } // Overview Section
   &-overview {
+    img {
+      width: 200px;
+      margin: 0 auto 0.35em;
+    }
     margin-top: 1.25em;
     @include mq (medium) {
       margin-top: 0;
@@ -40,22 +40,13 @@
     &_icons {
       display: flex;
       justify-content: center;
-      >img {
-        width: 32px;
-        height: 32px;
-        margin-right: 20px;
-      }
-    }
-    a {
       img {
-        width: 200px;
-        margin: 0 auto 0.35em;
+        width: 28px;
+        height: 28px;
+        margin-right: 12px;
       }
     }
-  }
-
-  // Nav Section
-
+  } // Nav Section
   &-nav {
     margin-top: 1.25em;
     display: flex;
@@ -83,10 +74,7 @@
         text-align: left;
       }
     }
-  }
-
-  // Contact Section
-
+  } // Contact Section
   &-contact {
     margin-top: 1.25em;
     text-align: center;
