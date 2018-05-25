@@ -22,6 +22,23 @@ p {
   line-height: 1.35;
 }
 
+h2 {
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  -webkit-font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  margin-bottom: 0.83333em;
+  color: #212b35;
+  font-size: 1.5em;
+  line-height: 1.222;
+  font-weight: 700;
+}
+
 .section-header {
   margin-bottom: 2em;
   font-size: 24px;

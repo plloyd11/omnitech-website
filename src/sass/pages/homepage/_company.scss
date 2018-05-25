@@ -1,8 +1,6 @@
-.homepage--company {
-    img {
-        margin-top: 2.25em;
-        @include mq(medium) {
-            margin-top: 0;
-        }
+.img-decorated {
+    margin-top: 2.25em;
+    @include mq(medium) {
+        margin-top: 0;
     }
 }
