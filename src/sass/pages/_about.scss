@@ -25,4 +25,16 @@
       }
     }
   }
+  &_content {
+    display: flex;
+    > div {
+      &:first-of-type {
+        margin-right: 2.25em;
+        flex: 1 0 125px;
+      }
+      &:last-of-type {
+        flex: 1;
+      }
+    }
+  }
 }

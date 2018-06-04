@@ -22,6 +22,11 @@ p {
   line-height: 1.35;
 }
 
+.paragraph-large {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 h2 {
   -webkit-font-kerning: normal;
   font-kerning: normal;
@@ -45,6 +50,12 @@ h2 {
   color: hsla(215, 15%, 22%,.6);
   letter-spacing: 0.7px;
   text-transform: uppercase;
+}
+
+.section-header-article {
+  margin-bottom: 2em;
+  font-size: 1.95em;
+  letter-spacing: 0.5px;
 }
 
 .footer-header {

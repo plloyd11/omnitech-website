@@ -59,7 +59,7 @@ section > * {
 }
 
 .wrapper_content {
-    padding: 0 calc(50% - 400px);
+    padding: 0 calc(50% - 500px);
 }
 
 .wrapper_wide {
@@ -124,4 +124,9 @@ li {
     > img {
         margin: 0 auto;
     }
+}
+
+.bg-light {
+    padding: 2.25em calc(50% - 600px);
+    background: #f4f6f8;
 }

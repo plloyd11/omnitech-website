@@ -35,6 +35,8 @@
     }
 }
 
+
+// HR Spacers
 .hr-content_horizontal {
     margin-top: 0;
     margin-bottom: 25px;
@@ -55,7 +57,7 @@
 
 .content-page {
     margin: -90px auto 50px;
-    max-width: 1200px;
+    max-width: 1400px;
     background: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
     &_hero {
@@ -70,7 +72,7 @@
 .content-page--boxes {
     margin: -324px auto 50px;
     padding-top: 20em;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .services--synopsis {
@@ -110,6 +112,10 @@
 	background-position: 50% 50%;
 }
 
+.paragraph-block {
+    max-width: 640px;
+}
+
 .text-block {
 	-webkit-box-flex: 0;
 	-webkit-flex: 0 1 50%;
@@ -122,6 +128,14 @@
 .text-block-inside-container {
     max-width: 490px;
     margin: 95px auto 0;
+}
+
+.text-block-img-container {
+    display: flex;
+    align-items: center;
+    > img {
+        max-width: 225px;
+    }
 }
 
 .block-content {
@@ -145,4 +159,24 @@
 		0 7px 13px 0 rgba(23, 28, 33, 0.05);
 	border-radius: 50%;
 	padding: 13px;
+}
+
+// Article Page Layout
+
+// Grid Helpers
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-gap: 25px;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.align-center {
+    align-self: center;
 }

@@ -1,6 +1,6 @@
 .products {
     .content-page_hero {
-        @include content-hero-img(url('/img/products-hero.jpg'));
+        @include content-hero-img(url('/img/products/products-hero.jpg'));
     }
     &--synopsis {
         display: flex;
