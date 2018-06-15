@@ -14,6 +14,21 @@
             }
         }
     }
+    .article--callout {
+        @include article-callout (url('/img/products/products-callout.jpg'));
+    }
+
+    &--vision-systems {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 2fr 1fr;
+        .article--block_text {
+            text-align: center;
+        }
+        .article--block_img {
+            align-self: center;
+        }
+    }
 }
 
 .services-icons {

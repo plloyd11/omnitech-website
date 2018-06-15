@@ -7,8 +7,6 @@
 
   {{> global-nav }}
 
-  {{> content-hero }}
-
   {{{ contents }}}
 
   {{> global-footer }}

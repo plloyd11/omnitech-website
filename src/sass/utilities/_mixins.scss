@@ -68,10 +68,9 @@
 }
 
 
-@mixin rates-callout ($img) {
+@mixin article-callout ($img) {
   width: 100%;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;

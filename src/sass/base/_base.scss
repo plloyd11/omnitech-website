@@ -21,6 +21,9 @@ body {
 
 main {
     background-color: #fff;
+}
+
+.homepage {
     padding-bottom: 1em;
 }
 
@@ -64,6 +67,10 @@ section > * {
 
 .wrapper_wide {
     padding: 0 calc(50% - 600px);
+}
+
+.wrapper_article {
+    padding: 75px calc(50% - 600px);
 }
 
 .section-spacing {
@@ -127,6 +134,5 @@ li {
 }
 
 .bg-light {
-    padding: 2.25em calc(50% - 600px);
     background: #f4f6f8;
 }
