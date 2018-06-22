@@ -62,7 +62,8 @@
     background-position: center;
     background-size: cover;
     @include mq (medium) {
-      height: 60vh;
+      height: 80vh;
+      max-height: 700px;
       align-items: flex-start;
     }
 }

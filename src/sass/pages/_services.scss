@@ -20,6 +20,9 @@
             max-width: 650px;
         }
     }
+    .article--callout {
+        @include article-callout (url('/img/capabilities/capabilities-callout.jpg'));
+    }
 }
 
 .services-icons {

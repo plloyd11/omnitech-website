@@ -1,6 +1,7 @@
 .homepage--hero {
     @include hero-img(url('/img/hero.jpg'));
     &-content {
+        max-width: 600px;
         padding: 2.25em;
         color: #fff;
         z-index: 100000;

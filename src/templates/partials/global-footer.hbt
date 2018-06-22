@@ -14,8 +14,8 @@
         </div>
         <div class="global--footer-nav">
             <h3 class="footer-header">Company</h3>
-            <a href="">Company Background</a>
-            <a href="">Directions</a>
+            <a href="/about-us">Company Background</a>
+            <a href="/contact">Directions</a>
         </div>
         <div class="global--footer-contact">
             <h3 class="footer-header">Contact</h3>
@@ -33,7 +33,7 @@
             </div>
             <div>
                 <img src="/img/icons/fax.svg" alt="">
-                <p>610-965-4019</p>
+                <p>610-965-4019 (fax)</p>
             </div>
             <div>
                 <img src="/img/icons/envelope.svg" alt="">
