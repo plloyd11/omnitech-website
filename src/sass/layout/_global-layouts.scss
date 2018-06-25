@@ -57,17 +57,18 @@
 
 .content-page {
     margin: -90px auto 0;
-    max-width: 1400px;
     background: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
     &_hero {
         h1 {
             color: #fff;
-            font-size: 48px;
+            font-size: 24px;
             text-transform: capitalize;
             line-height: 1.35;
             font-weight: 600;
-
+            @include mq(small) {
+                font-size: 48px;
+            }
         }
         p {
             font-size: 24px;
@@ -81,15 +82,20 @@
 .content-page--boxes {
     margin: -366px auto 0;
     padding-top: 20em;
-    max-width: 1400px;
 }
 
 .services--synopsis {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     max-width: 1200px;
-    margin: -5em auto 91px;
-    background-color: transparent;
+    background: #fff;
+    @include mq(medium) {
+        margin: -5em auto 91px;
+        flex-direction: row;
+        align-items: inherit;
+        background-color: transparent;
+    }
 }
 
 .spacing--he {
@@ -173,15 +179,25 @@
 // Article Page Layout
 
 .article--block_tl {
-    display: grid;
-    grid-gap: 75px;
-    grid-template-columns: minmax(480px, 1fr) 2fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mq(small) {
+        display: grid;
+        grid-gap: 75px;
+        grid-template-columns: minmax(480px, 1fr) 2fr;   
+    }
 }
 
 .article--block_tr {
-    display: grid;
-    grid-gap: 75px;
-    grid-template-columns: 2fr minmax(480px, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mq(small) {
+        display: grid;
+        grid-gap: 75px;
+        grid-template-columns: 2fr minmax(480px, 1fr);   
+    }
 }
 
 .article--block_text {

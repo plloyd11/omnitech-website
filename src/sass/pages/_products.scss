@@ -6,6 +6,11 @@
         display: flex;
         justify-content: space-between;
     }
+    
+    .homepage--synopsis_box {
+        min-width: 375px;
+    }
+
     &--guarentee {
         display: flex;
         > div {

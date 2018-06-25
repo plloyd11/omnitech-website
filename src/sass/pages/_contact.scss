@@ -4,6 +4,10 @@
     }
     &_container {
         display: flex;
+        flex-direction: column;
+        @include mq(medium) {
+            flex-direction: row;
+        }
         >div {
             padding: 3em 2.25em;
             flex: 1;

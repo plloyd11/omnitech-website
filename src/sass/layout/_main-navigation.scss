@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    z-index: 100;
+    z-index: 10000;
     transition: 0.35s ease-in;
     @include mq (medium) {
         padding-left: 1.75em;
@@ -33,9 +33,15 @@
     &-item {
         padding-left: 0.85em;
         padding-right: 0.85em;
+        margin-top: 1em;
+        margin-bottom: 1em;
         color: #fff;
         text-transform: uppercase;
         font-size: 1rem;
+        @include mq(small) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 
         &:hover {
             color: #A0A4B8;
@@ -77,11 +83,12 @@
 
 .mobile-menu-open {
     width: 100%;
-    height: 250px;
+    height: 350px;
     position: absolute;
     left: 0;
-    top: 90px;
+    top: 75px;
     background: #000;
     display: flex;
     flex-direction: column;
+    z-index: 10000;
 }

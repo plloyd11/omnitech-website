@@ -27,6 +27,10 @@
   }
   &_content {
     display: flex;
+    flex-direction: column;
+    @include mq(medium) {
+        flex-direction: row;
+    }
     > div {
       &:first-of-type {
         margin-right: 2.25em;
