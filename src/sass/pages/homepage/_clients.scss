@@ -61,6 +61,18 @@
             margin: 0 auto 10px;
         }
     }
+    &_info {
+        > img {
+            width: 75px;
+            border-radius: 50%;
+        }
+        p {
+            &:last-of-type {
+                margin-top: 5px;
+                font-size: 12.5px;
+            }
+        }
+    }
 }
 
 // Client Logos

@@ -36,7 +36,7 @@ layout: article.hbt
                     </div>
                     <div>
                         <img src="/img/icons/envelope-brand.svg" alt="Mail Icon">
-                        <a href="#">general_info@oai-automation.com</a>
+                        <a class="mailLink" href="mailto:general_info@oai-automation.com">general_info@oai-automation.com</a>
                     </div>
                 </div>
             </div>
@@ -46,19 +46,67 @@ layout: article.hbt
                 <form class="contact-form">
                     <div class="form-group">
                         <label for="exampleInputEmail1">First Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please enter your first name">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
                             <label for="exampleInputEmail1">Last Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please enter your last name">
-                        </div>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please enter your email address">
+                        <label for="exampleInputEmail1">Title</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Phone Number</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Please enter your phone number">
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Company Name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Industry</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Company Type</label>
+                        <select type="select" name="cars">
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Annual Revenue (in Millions)</label>
+                        <select name="cars">
+                            <option value="$0-5MM">$0-5MM</option>
+                            <option value="$5-10MM">$5-10MM</option>
+                            <option value="$10-25MM">$10-25MM</option>
+                            <option value="$25-50MM">$25-50MM</option>
+                            <option value="$50-100MM">$50-100MM</option>
+                            <option value="$100MM+">$100MM+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Number of Employees</label>
+                        <select name="cars">
+                            <option value="0-100">0-100</option>
+                            <option value="101-250">101-250</option>
+                            <option value="251-500">251-500</option>
+                            <option value="501-1,000">501-1,000</option>
+                            <option value="1000+">1000+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="products">Products</label>
+                        <textarea name="products" rows="10" cols="30"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="products">Automation Project Description</label>
+                        <textarea name="products" rows="10" cols="30"></textarea>
                     </div>
                     <button type="submit" class="btn-cta">Submit</button>
                 </form>

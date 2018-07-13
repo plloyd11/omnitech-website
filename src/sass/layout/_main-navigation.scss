@@ -92,3 +92,8 @@
     flex-direction: column;
     z-index: 10000;
 }
+
+.navActive {
+    padding-bottom: 34px;
+    border-bottom: 2px solid $primary-color;
+}

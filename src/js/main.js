@@ -62,3 +62,20 @@ $(function(){
         dateActiveClass: '.active',
     });
 });
+
+// Nav Active Class
+
+new Vue({
+    el: '.global--main-nav-right',
+    data() {
+        return { activeItem: '' }
+    },
+    methods: {
+        isActive: function(menuItem) {
+            return this.activeItem === menuItem
+        },
+        setActive: function(menuItem) {
+            this.activeItem = menuItem
+        }
+    }
+})

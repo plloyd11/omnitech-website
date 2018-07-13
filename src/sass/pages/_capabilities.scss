@@ -22,6 +22,9 @@
     .article--callout {
         @include article-callout (url('/img/capabilities/capabilities-callout.jpg'));
     }
+    .hr-service {
+        margin-top: 30px;
+    }
 }
 
 .services-icons {

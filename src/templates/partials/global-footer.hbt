@@ -7,7 +7,7 @@
                 <a href="https://www.youtube.com/user/OmnitechAutomation" target="_blank"><img src="/img/icons/youtube.svg" alt="YoutTube logo"></a>
                 <a href="https://www.facebook.com/OmnitechAutomation/" target="_blank"><img src="/img/icons/facebook.svg" alt="Facebook logo"></a>
                 <a href="https://twitter.com/@OmnitechUSA" target="_blank"><img src="/img/icons/twitter.svg" alt="Twitter logo"></a>
-                <a href="https://twitter.com/@OmnitechUSA" target="_blank"><img src="/img/icons/instagram.svg" alt="Instagram logo"></a>
+                <a href="https://www.instagram.com/omnitechautomation/ " target="_blank"><img src="/img/icons/instagram.svg" alt="Instagram logo"></a>
                 <a href="https://www.linkedin.com/company/omnitech-automation-inc/" target="_blank"><img src="/img/icons/linkedin.svg" alt="LinkedIn logo"></a>
                 <a href="https://plus.google.com/u/0/100619187120151026934" target="_blank"><img src="/img/icons/google-plus-square.svg" alt="Google logo"></a>
             </div>
@@ -37,7 +37,7 @@
             </div>
             <div>
                 <img src="/img/icons/envelope.svg" alt="">
-                <a href="#">general_info@oai-automation.com</a>
+                <a href="mailto:general_info@oai-automation.com">general_info@oai-automation.com</a>
             </div>
         </div>
     </div>
