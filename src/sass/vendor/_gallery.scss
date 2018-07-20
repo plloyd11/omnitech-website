@@ -4,7 +4,7 @@ Main Components
 
 -------------------------------- */
 
-.cd-single-item {
+.gallery-item {
     position: relative;
     background: #ffffff; 
     padding-bottom: 3em;
@@ -266,8 +266,9 @@ Main Components
       border-radius: 4px; }
     @media only screen and (min-width: 1024px) {
       .cd-item-info {
-        position: absolute;
-        width: 50%;
+        max-width: 600px;
+        // position: absolute;
+        // width: 50%;
         top: 0;
         right: 0;
         margin: 0; } }

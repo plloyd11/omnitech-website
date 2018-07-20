@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	var itemInfoWrapper = $('.cd-single-item');
+	var itemInfoWrapper = $('.gallery-item');
 	
 	itemInfoWrapper.each(function(){
 		var container = $(this),
