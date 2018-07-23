@@ -122,6 +122,7 @@ Main Components
     z-index: 2;
     top: 50%;
     bottom: auto;
+    list-style-type: none;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -133,8 +134,8 @@ Main Components
       right: 10px; }
     .cd-slider-navigation li a {
       display: block;
-      width: 48px;
-      height: 48px;
+      width: 32px;
+      height: 32px;
       background: url("../img/icons/cd-icon-arrow.svg") no-repeat center center;
       -webkit-transition: opacity 0.2s 0s, visibility 0s 0s;
       -moz-transition: opacity 0.2s 0s, visibility 0s 0s;
@@ -159,9 +160,9 @@ Main Components
       transform: rotate(180deg); }
     @media only screen and (min-width: 1024px) {
       .cd-slider-navigation li:first-child {
-        left: 30px; }
+        left: -5px; }
       .cd-slider-navigation li:last-child {
-        right: 30px; } }
+        right: 14px; } }
   
   .cd-slider-pagination {
     /* you won't see this element in the html but it will be created using jQuery */
@@ -187,13 +188,13 @@ Main Components
       float: left;
       margin: 0 5px; }
       .cd-slider-pagination li.selected a {
-        background: #f5f4f3; }
+        background: hsl(358, 43%, 54%); }
     .cd-slider-pagination a {
       display: block;
       height: 12px;
       width: 12px;
       border-radius: 50%;
-      border: 1px solid #f5f4f3;
+      border: 1px solid hsl(358, 33%, 54%);
       /* fix a bug in IE9/10 - transparent anchor not clickable */
       background-color: rgba(255, 255, 255, 0);
       /* image replacement */
@@ -205,8 +206,8 @@ Main Components
     display: none;
     position: absolute;
     z-index: 2;
-    top: 30px;
-    right: 30px;
+    top: 12px;
+    right: 12px;
     width: 48px;
     height: 48px;
     background: url("../img/icons/cd-icon-close.svg") no-repeat center center;
@@ -280,4 +281,16 @@ Main Components
     margin: 0 auto;
     color: #afa8a0;
     line-height: 1.8; }
-  
+
+.cd-item-info {
+  > ul {
+    margin: 1em 0;
+  }
+  small {
+    font-size: 12px;
+  }
+  > h3 {
+    font-size: 18px;
+  }
+}
+
