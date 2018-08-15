@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hamburger" fill-rule="nonzero">
+            <circle id="Oval" fill="#D33E43" cx="64" cy="64" r="64"></circle>
+            <g id="Group" transform="translate(24.000000, 29.000000)" fill="#FFFFFF">
+                <path d="M79,0 L1,0 C0.4,0 0,0.4 0,1 L0,13 C0,13.6 0.4,14 1,14 L79,14 C79.6,14 80,13.6 80,13 L80,1 C80,0.4 79.6,0 79,0 Z" id="Shape"></path>
+                <path d="M79,28 L1,28 C0.4,28 0,28.4 0,29 L0,41 C0,41.6 0.4,42 1,42 L79,42 C79.6,42 80,41.6 80,41 L80,29 C80,28.4 79.6,28 79,28 Z" id="Shape"></path>
+                <path d="M79,56 L1,56 C0.4,56 0,56.4 0,57 L0,69 C0,69.6 0.4,70 1,70 L79,70 C79.6,70 80,69.6 80,69 L80,57 C80,56.4 79.6,56 79,56 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

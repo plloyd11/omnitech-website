@@ -71,11 +71,6 @@
     height: 75px;
     transition: 0.35s ease-in;
 
-    img {
-        margin-top: 7px;
-        width: 135px;
-    }
-
     .global--main-nav-item {
         font-size: 0.75rem;
     }
@@ -96,4 +91,9 @@
 .navActive {
     padding-bottom: 34px;
     border-bottom: 2px solid $primary-color;
+}
+
+.mobile-menu-btn {
+    width: 35px;
+    cursor: pointer;
 }

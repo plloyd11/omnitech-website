@@ -11,6 +11,6 @@
         <a href="/contact" class="global--main-nav-item nav-contact">Contact</a>
     </nav>
     <nav class="global--main-nav-mobile">
-      <button class="nav-cta mobile-menu-btn">Menu</button>
+      <img src="/img/icons/hamburger.svg" alt="Hamburger Menu Icon" class="mobile-menu-btn">
     </nav>
 </header>
