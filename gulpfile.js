@@ -97,6 +97,22 @@ gulp.task('build-helper', ['build'], (done) => {
   }));
 });
 
+gulp.task('static-deploy', ['build'], (done) => {
+  const bsFlag = (() => {
+    let status = false;
+    return (bool) => {
+      if (bool) status = true;
+      return status;
+    };
+  })();
+  gulp.src(['./build/pages/**/*'])
+  .pipe(gulp.dest('build'))
+  .on('end', () => del([
+    './build/pages/',
+    './build/templates/'
+  ]),
+)});
+
 // Standalone server
 gulp.task('serve', (done) => {
   bs.init({
