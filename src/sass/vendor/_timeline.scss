@@ -91,11 +91,15 @@ Vertical Timeline - by CodyHouse.co
 
 .cd-timeline__img img {
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   position: relative;
   left: 10%;
   top: 10%;
+  @media (min-width: 1170px) {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 @media only screen and (min-width: 1170px) {
