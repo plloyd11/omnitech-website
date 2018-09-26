@@ -11,6 +11,7 @@
     background-color: #000;
     z-index: 10000;
     transition: 0.35s ease-in;
+
     @include mq (medium) {
         padding-left: 1.75em;
         padding-right: 1.75em;
@@ -25,6 +26,7 @@
 
     &-right {
         display: none;
+
         @include mq (medium) {
             display: block;
         }
@@ -35,9 +37,11 @@
         padding-right: 0.85em;
         margin-top: 1em;
         margin-bottom: 1em;
+        position: relative;
         color: #fff;
         text-transform: uppercase;
         font-size: 1rem;
+
         @include mq(small) {
             margin-top: 0;
             margin-bottom: 0;
@@ -48,6 +52,7 @@
             text-decoration: none;
         }
     }
+
     .nav-contact {
         background: $primary-color;
         padding: .65em .85em;
@@ -55,6 +60,7 @@
 
     &-mobile {
         display: block;
+
         @include mq (medium) {
             display: none;
         }
@@ -96,4 +102,17 @@
 .mobile-menu-btn {
     width: 35px;
     cursor: pointer;
+}
+
+.is-active {
+    &::after {
+        @include mq(medium) {
+            content: '';
+            width: 100%;
+            position: absolute;
+            bottom: -35px;
+            left: 0;
+            border-bottom: 2px solid #D33E43;
+        }
+    }
 }

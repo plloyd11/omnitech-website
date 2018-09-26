@@ -3,12 +3,12 @@
         <a href="/"><img src="/img/logos/logo.png"></a>
     </div>
     <nav class="global--main-nav-right">
-        <a v-on:click="setActive('products')" :class="{ navActive: isActive('products') }" href="/products" class="global--main-nav-item">Products</a>
-        <a v-on:click="setActive('capabilities')" :class="{ navActive: isActive('capabilities') }" href="/capabilities" class="global--main-nav-item">Capabilities</a>
+        <a href="/products" class="global--main-nav-item">Products</a>
+        <a href="/capabilities" class="global--main-nav-item">Capabilities</a>
         <a href="/services" class="global--main-nav-item">Services</a>
         <a href="/gallery" class="global--main-nav-item">Gallery</a>
         <a href="/about-us" class="global--main-nav-item">About Us</a>
-        <a href="/contact" class="global--main-nav-item nav-contact">Contact</a>
+        <a href="/contact" class="global--main-nav-item">Contact</a>
     </nav>
     <nav class="global--main-nav-mobile">
       <img src="/img/icons/hamburger.svg" alt="Hamburger Menu Icon" class="mobile-menu-btn">
