@@ -70,7 +70,10 @@ section > * {
 }
 
 .wrapper_article {
-    padding: 75px calc(50% - 600px);
+    padding: 25px calc(50% - 195px);
+    @include mq (small) {
+        padding: 75px calc(50% - 600px); 
+    }
 }
 
 .section-spacing {

@@ -99,3 +99,17 @@
 .mb150 {
   margin-bottom: 150px;
 }
+
+.hidden-sm {
+  display: none;
+  @include mq(small) {
+    display: block;
+  }
+}
+
+.hidden-md {
+  display: none;
+  @include mq(medium) {
+    display: block;
+  }
+}

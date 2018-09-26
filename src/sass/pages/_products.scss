@@ -24,9 +24,13 @@
     }
 
     &--vision-systems {
-        display: grid;
-        grid-gap: 50px;
-        grid-template-columns: 1fr 2fr 1fr;
+        display: flex;
+        flex-direction: column;
+        @include mq(medium) {
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
         .article--block_text {
             text-align: center;
         }

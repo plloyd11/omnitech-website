@@ -2,9 +2,11 @@
     .content-page_hero {
         @include content-hero-img(url('/img/gallery-hero.jpg'));
     }
+
     &--intro {
         padding-top: 3em;
     }
+
     &--navigation {
         margin-bottom: 100px;
         display: flex;
@@ -14,5 +16,18 @@
 .gallery-item {
     margin-bottom: 3.35em;
     display: flex;
+    flex-direction: column;
     border-bottom: 1px solid #f4f6f8;
+
+    @include mq(small) {
+        flex-direction: row;
+    }
+
+    .cd-item-info {
+        margin-top: 1em;
+
+        @include mq(small) {
+            margin-top: 0;
+        }
+    }
 }
