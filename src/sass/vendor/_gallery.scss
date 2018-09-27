@@ -28,7 +28,9 @@ Main Components
     will-change: width; }
     @media only screen and (min-width: 1024px) {
       .cd-slider-wrapper {
-        width: 50%; }
+        width: 45%;
+        margin-left: 5%;
+      }
         .cd-slider-active .cd-slider-wrapper {
           width: 100%; } }
   
