@@ -1,6 +1,19 @@
 .img-decorated {
     margin-top: 2.25em;
+
     @include mq(medium) {
         margin-top: 0;
+    }
+}
+
+#homepage-vision-system {
+    display: none;
+
+    @include mq(small) {
+        display: block;
+        position: absolute;
+        left: 325px;
+        bottom: -16px;
+        width: 250px;
     }
 }
