@@ -1,6 +1,6 @@
 .capabilities {
     .content-page_hero {
-        @include content-hero-img(url('/img/capabilities-hero.jpg'));
+        @include content-hero-img(url('/img/capabilities-hero-collage.jpg'));
     }
     &--synopsis {
         display: flex;
