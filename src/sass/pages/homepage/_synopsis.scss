@@ -58,6 +58,7 @@
             line-height: 1.25;
         }
         > p {
+            max-width: 315px;
             text-align: center;
             @include mq(medium) {
                 text-align: left;
