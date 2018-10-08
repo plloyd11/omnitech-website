@@ -20,6 +20,7 @@ body {
 }
 
 main {
+    display: block; // IE11 Fix
     background-color: #fff;
 }
 

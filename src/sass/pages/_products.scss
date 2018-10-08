@@ -2,23 +2,24 @@
     .content-page_hero {
         @include content-hero-img(url('/img/products/products-hero.jpg'));
     }
+
     &--synopsis {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .homepage--synopsis_box {
         min-width: 375px;
     }
 
     &--guarentee {
         display: flex;
-        > div {
-            &:nth-of-type(2){
-                
-            }
+
+        >div {
+            &:nth-of-type(2) {}
         }
     }
+
     .article--callout {
         @include article-callout (url('/img/products/products-callout.jpg'));
     }
@@ -26,17 +27,25 @@
     &--vision-systems {
         display: flex;
         flex-direction: column;
+
         @include mq(medium) {
             display: grid;
             grid-gap: 50px;
             grid-template-columns: 1fr 2fr 1fr;
         }
+
         .article--block_text {
             text-align: center;
         }
+
         .article--block_img {
             align-self: center;
         }
+    }
+
+    .content-page--boxes {
+        margin: -408px auto 0;
+        padding-top: 20em;
     }
 }
 
@@ -47,7 +56,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        > div {
+
+        >div {
             margin-left: 50px;
             margin-right: 50px;
             display: flex;
@@ -56,6 +66,7 @@
             align-items: center;
         }
     }
+
     p {
         margin-top: 15px;
         max-width: 200px;

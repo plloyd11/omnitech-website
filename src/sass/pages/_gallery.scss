@@ -5,6 +5,10 @@
 
     &--intro {
         padding-top: 3em;
+
+        .page-title {
+            margin-bottom: 0;
+        }
     }
 
     &--navigation {
