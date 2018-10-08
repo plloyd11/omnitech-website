@@ -2,14 +2,28 @@
     position: relative;
     margin-top: -75px;
     padding: 0 calc(50% - 600px);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     z-index: 300;
     @include mq(medium) {
-        flex-direction: row;
-        align-items: initial;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: initial;
+            -ms-flex-align: initial;
+                align-items: initial;
     }
     &_box {
         margin-bottom: 2.25em;
@@ -17,14 +31,24 @@
         margin-right: 0;
         padding: 30px;
         max-width: 375px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         background: #FFFFFF;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
+        -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
         @include mq(medium) {
             margin-bottom: 0;
-            align-items: flex-start;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
         }
         >h2 {
             margin-top: 1.25em;
