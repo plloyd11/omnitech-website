@@ -1,6 +1,16 @@
 .products {
     .content-page_hero {
         @include content-hero-img(url('/img/products/products-hero.jpg'));
+
+        >div {
+            position: relative;
+            top: 45px;
+
+            @include mq(medium) {
+                position: static;
+                top: inherit;
+            }
+        }
     }
 
     &--synopsis {
@@ -14,10 +24,6 @@
 
     &--guarentee {
         display: flex;
-
-        >div {
-            &:nth-of-type(2) {}
-        }
     }
 
     .article--callout {
@@ -45,7 +51,10 @@
 
     .content-page--boxes {
         margin: -408px auto 0;
-        padding-top: 20em;
+        padding-top: 26em;
+        @include mq(medium) {
+            padding-top: 20em;
+        }
     }
 }
 

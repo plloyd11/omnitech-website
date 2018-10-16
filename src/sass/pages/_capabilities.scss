@@ -1,7 +1,17 @@
 .capabilities {
     .content-page_hero {
         @include content-hero-img(url('/img/capabilities-hero-collage.jpg'));
+        >div {
+            position: relative;
+            top: 45px;
+
+            @include mq(medium) {
+                position: static;
+                top: inherit;
+            }
+        }
     }
+
     &--synopsis {
         display: flex;
         justify-content: space-between;
@@ -13,15 +23,16 @@
 
     &--guarentee {
         display: flex;
-        > div {
-            &:nth-of-type(2){
-                
-            }
+
+        >div {
+            &:nth-of-type(2) {}
         }
     }
+
     .article--callout {
         @include article-callout (url('/img/capabilities/capabilities-callout.jpg'));
     }
+
     .hr-service {
         margin-top: 30px;
     }
@@ -34,7 +45,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        > div {
+
+        >div {
             margin-left: 50px;
             margin-right: 50px;
             display: flex;
@@ -43,6 +55,7 @@
             align-items: center;
         }
     }
+
     p {
         margin-top: 15px;
         max-width: 200px;

@@ -1,6 +1,17 @@
 .services {
     .content-page_hero {
-        @include content-hero-img(url('/img/services/services-hero.jpg'));
+        @include content-hero-img(url('/img/services/services-hero-mobile.jpg'));
+        @include mq(medium) {
+            @include content-hero-img(url('/img/services/services-hero.jpg'));
+        }
+        > div {
+            position: relative;
+            top: 45px;
+            @include mq(medium) {
+                position: static;
+                top: inherit;
+            }
+        }
     }
 
     &--synopsis {
