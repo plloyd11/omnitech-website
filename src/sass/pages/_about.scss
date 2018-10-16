@@ -1,6 +1,10 @@
 .about {
   .content-page_hero {
-    @include content-hero-img(url('/img/about-hero.jpg'));
+    @include content-hero-img(url('/img/about/about-hero-mobile.jpg'));
+
+    @include mq(medium) {
+      @include content-hero-img(url('/img/about/about-hero.jpg'));
+    }
   }
 
   &_container {
@@ -9,7 +13,12 @@
   }
 
   &_team {
+    display: none;
     margin-bottom: 40px;
+
+    @include mq(small) {
+      display: block;
+    }
 
     h3 {
       font-size: 24px;

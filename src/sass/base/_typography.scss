@@ -47,10 +47,13 @@ h2 {
 
 .section-header {
   margin-bottom: 2em;
-  font-size: 24px;
+  font-size: 20px;
   color: hsla(215, 15%, 22%,.6);
   letter-spacing: 0.7px;
   text-transform: uppercase;
+  @include mq(small) {
+    font-size: 24px;
+  }
 }
 
 .section-header-article {

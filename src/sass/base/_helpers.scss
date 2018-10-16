@@ -93,7 +93,10 @@
 }
 
 .mb100 {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  @include mq(small) {
+    margin-bottom: 100px;
+  }
 }
 
 .mb150 {

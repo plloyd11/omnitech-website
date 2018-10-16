@@ -1,40 +1,63 @@
 .homepage--hero {
+    margin-bottom: 50px;
+
+    @include mq(small) {
+        margin-bottom: 0;
+    }
+
     @include hero-img(url('/img/hero.jpg'));
+
     &-content {
-        max-width: 600px;
-        padding: 2.25em;
+        padding: 1.25em;
+        position: relative;
+        top: 35px;
         color: #fff;
         z-index: 999;
-        background: hsla(0, 0%, 0%,.75);
+        background: hsla(0, 0%, 0%, .75);
+
+        @include mq(small) {
+            max-width: 600px;
+            padding: 2.25em;
+            margin-left: initial;
+            margin-right: initial;
+        }
+
         >h1 {
             font-size: 24px;
             line-height: 1.35;
-            text-align: center;
             font-weight: 400;
+
             @media (min-width: 1000px) {
                 font-size: 36px;
                 line-height: 1.35;
-                text-align: left;
             }
+
             @media (min-width: 1600px) {
                 font-size: 40px;
             }
         }
+
         >p {
-            margin-top: 15px;
-            margin-bottom: 35px;
-            font-size: 16px;
-            line-height: 1.45;
-            text-align: center;
+            display: none;
+
+            @include mq (small) {
+                display: inline-block;
+                margin-top: 15px;
+                margin-bottom: 35px;
+                font-size: 16px;
+                line-height: 1.45;
+            }
+
             @include mq(medium) {
                 font-size: 19px;
-                text-align: left;
             }
         }
+
         >.btn-cta {
             margin: 0 auto;
             display: block;
             width: 180px;
+
             @include mq(medium) {
                 display: inline-block;
                 width: inherit;

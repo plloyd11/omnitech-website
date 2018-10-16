@@ -9,8 +9,11 @@
             flex-direction: row;
         }
         >div {
-            padding: 3em 2.25em;
+            padding: 1.5em .35em;
             flex: 1;
+            @include mq(small) {
+                padding: 3em 2.25em;
+            }
             h2 {
                 font-size: 32px;
             }

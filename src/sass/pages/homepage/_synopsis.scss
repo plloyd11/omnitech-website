@@ -1,30 +1,26 @@
 .homepage--synopsis {
-    position: relative;
-    margin-top: -75px;
-    padding: 0 calc(50% - 600px);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    z-index: 300;
-    @include mq(medium) {
+    display: none;
+
+    @include mq(small) {
+        position: relative;
+        margin-top: -75px;
+        padding: 0 calc(50% - 600px);
+        z-index: 300;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-align: initial;
-            -ms-flex-align: initial;
-                align-items: initial;
+        -ms-flex-align: initial;
+        align-items: initial;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
+
     &_box {
         margin-bottom: 2.25em;
         margin-left: 0;
@@ -36,20 +32,22 @@
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         background: #FFFFFF;
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.30);
+
         @include mq(medium) {
             margin-bottom: 0;
             -webkit-box-align: start;
-                -ms-flex-align: start;
-                    align-items: flex-start;
+            -ms-flex-align: start;
+            align-items: flex-start;
         }
+
         >h2 {
             margin-top: 1.25em;
             margin-bottom: .65em;
@@ -57,9 +55,11 @@
             font-weight: 500;
             line-height: 1.25;
         }
-        > p {
+
+        >p {
             max-width: 315px;
             text-align: center;
+
             @include mq(medium) {
                 text-align: left;
             }

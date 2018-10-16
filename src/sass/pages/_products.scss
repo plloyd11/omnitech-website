@@ -1,6 +1,10 @@
 .products {
     .content-page_hero {
-        @include content-hero-img(url('/img/products/products-hero.jpg'));
+        @include content-hero-img(url('/img/products/products-hero-mobile.jpg'));
+
+        @include mq(medium) {
+            @include content-hero-img(url('/img/products/products-hero.jpg'));
+        }
 
         >div {
             position: relative;
@@ -27,7 +31,10 @@
     }
 
     .article--callout {
-        @include article-callout (url('/img/products/products-callout.jpg'));
+        @include article-callout (url('/img/products/products-callout-mobile.jpg'));
+        @include mq(small) {
+            @include article-callout (url('/img/products/products-callout.jpg'));
+        }
     }
 
     &--vision-systems {
@@ -50,9 +57,8 @@
     }
 
     .content-page--boxes {
-        margin: -408px auto 0;
-        padding-top: 26em;
         @include mq(medium) {
+            margin: -408px auto 0;
             padding-top: 20em;
         }
     }

@@ -22,12 +22,13 @@
 }
 
 .gallery-item {
-    margin-bottom: 3.35em;
+    margin-bottom: 1.35em;
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #f4f6f8;
 
     @include mq(small) {
+        margin-bottom: 3.35em;
         flex-direction: row;
     }
 
