@@ -89,7 +89,6 @@
 }
 
 .content-page {
-    margin: -90px auto 0;
     background: #fff;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
@@ -108,10 +107,14 @@
         }
 
         p {
-            font-size: 24px;
+            font-size: 20px;
             color: #fff;
             font-style: italic;
             font-weight: 300;
+
+            @include mq (small) {
+                font-size: 24px;
+            }
         }
     }
 }

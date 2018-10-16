@@ -1,6 +1,10 @@
 .gallery {
     .content-page_hero {
-        @include content-hero-img(url('/img/gallery-hero.jpg'));
+        @include content-hero-img(url('/img/gallery-hero-mobile.jpg'));
+
+        @include mq(medium) {
+            @include content-hero-img(url('/img/gallery-hero.jpg'));
+        }
     }
 
     &--intro {
