@@ -1,6 +1,6 @@
 <header class="global--main-nav container animated">
     <div class="global--main-nav-left">
-        <a href="/"><img src="/img/logos/logo.png"></a>
+        <a href="/"><img src="/img/logos/logo.png" alt="Omnitech Logo"></a>
     </div>
     <nav class="global--main-nav-right">
         <a href="/products" class="global--main-nav-item">Products</a>
