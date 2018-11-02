@@ -4,6 +4,7 @@
 /products/omnitech.php /products
 /products/custom_workcell.php /products
 /capabilities/design.php /capabilities
+/services/watchdog.php /services
 
 
 # Redirect default Netlify subdomain to primary domain
