@@ -1,0 +1,50 @@
+.thank-you {
+    .content-page_hero {
+        @include content-hero-img(url('/img/thank-you-hero-mobile.jpg'));
+
+        @include mq(medium) {
+            @include content-hero-img(url('/img/thank-you-hero.jpg'));
+        }
+    }
+
+    &--content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @include mq (small) {
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: 1fr 1fr;
+            align-items: flex-start;
+        }
+
+        img {
+            @include mq(medium) {
+                max-width: 476px;
+            }
+        }
+
+    }
+
+    &--nick {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            margin-bottom: 20px;
+
+            @include mq(small) {
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+        }
+
+        @include mq(small) {
+            flex-direction: row;
+        }
+    }
+}
