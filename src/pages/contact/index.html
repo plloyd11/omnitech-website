@@ -62,7 +62,7 @@ layout: article.hbt
                     <div class="field">
                         <label class="label" for="phone">Phone Number</label>
                         <div class="control">
-                            <input name="phone" class="input" type="number" placeholder="Phone Number" required>
+                            <input name="phone" class="input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Example: 555-555-5555" required>
                         </div>
                     </div>
 
@@ -83,16 +83,16 @@ layout: article.hbt
                     <div class="field">
                         <label class="label" for="industry">Industry</label>
                         <div class="control ">
-                            <input name="industry" class="input" type="text" placeholder="Industry" required>
+                            <input name="industry" class="input" type="text" placeholder="Industry">
                         </div>
                     </div>
 
                     <div class="field">
-                        <label for="reason" class="label">Company Type</label>
+                        <label for="company-type" class="label">Company Type</label>
                         <div class="control">
                             <div class="select">
-                                <select name="reason" required>
-                                    <option>Please Choose:</option>
+                                <select name="company-type" required>
+                                    <option value="">Please Choose:</option>
                                     <option>Public</option>
                                     <option>Private</option>
                                 </select>
@@ -101,11 +101,11 @@ layout: article.hbt
                     </div>
 
                     <div class="field">
-                        <label for="reason" class="label">Annual Revenue (In Millions)</label>
+                        <label for="revenue" class="label">Annual Revenue (In Millions)</label>
                         <div class="control">
                             <div class="select">
-                                <select name="reason" required>
-                                    <option>Please Choose:</option>
+                                <select name="revenue" required>
+                                    <option value="">Please Choose:</option>
                                     <option value="$0 - 5MM">$0 - 5MM</option>
                                     <option value="$5 - 10MM">$5 - 10MM</option>
                                     <option value="$10 - 25MM">$10 - 25MM</option>
@@ -118,11 +118,11 @@ layout: article.hbt
                     </div>
 
                     <div class="field">
-                        <label for="reason" class="label">Number of Employees</label>
+                        <label for="employees" class="label">Number of Employees</label>
                         <div class="control">
                             <div class="select">
-                                <select name="reason" required>
-                                    <option>Please Choose:</option>
+                                <select name="employees" required>
+                                    <option value="">Please Choose:</option>
                                     <option value="0 - 100">0-100</option>
                                     <option value="101 - 250">101-250</option>
                                     <option value="251 - 500">251-500</option>
@@ -136,12 +136,12 @@ layout: article.hbt
                     <div class="field">
                         <label for="message" class="label">Automated Project Description</label>
                         <div class="control">
-                            <textarea name="message" class="textarea" placeholder="Please describe your project"></textarea>
+                            <textarea name="message" class="textarea" placeholder="Please describe your project" required></textarea>
                         </div>
                     </div>
                     
                     <div class="field is-hidden">
-                        <label>Don’t fill this out if you're human:</label>
+                        <label for="bot-field">Don’t fill this out if you're human:</label>
                         <input name="bot-field" />
                     </div>
 
