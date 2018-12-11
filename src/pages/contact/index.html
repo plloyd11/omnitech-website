@@ -47,61 +47,43 @@ layout: article.hbt
                 <form name="contact-form" action="/thank-you" netlify netlify-honeypot="bot-field">
                     <div class="field">
                         <label class="label" for="name">Name</label>
-                        <div class="control has-icons-left has-icons-right">
+                        <div class="control">
                             <input name="name" class="input" type="text" placeholder="First and Last Name" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
                         </div>
                     </div>
 
                     <div class="field">
                         <label class="label" for="title">Title</label>
-                        <div class="control has-icons-left has-icons-right">
+                        <div class="control">
                             <input name="title" class="input" type="text" placeholder="Title" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
                         </div>
                     </div>
 
                     <div class="field">
                         <label class="label" for="phone">Phone Number</label>
-                        <div class="control has-icons-left has-icons-right">
+                        <div class="control">
                             <input name="phone" class="input" type="number" placeholder="Phone Number" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
                         </div>
                     </div>
 
                     <div class="field">
                         <label class="label" for="email">Email</label>
-                        <div class="control has-icons-left has-icons-right">
+                        <div class="control ">
                             <input name="email" class="input" type="email" placeholder="Email Address" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                            </span>
                         </div>
                     </div>
 
                     <div class="field">
                         <label class="label" for="company">Company Name</label>
-                        <div class="control has-icons-left has-icons-right">
-                            <input name="company" class="input" type="text" placeholder="Title" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
+                        <div class="control ">
+                            <input name="company" class="input" type="text" placeholder="Name of company" required>
                         </div>
                     </div>
 
                     <div class="field">
                         <label class="label" for="industry">Industry</label>
-                        <div class="control has-icons-left has-icons-right">
-                            <input name="industry" class="input" type="text" placeholder="Title" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
+                        <div class="control ">
+                            <input name="industry" class="input" type="text" placeholder="Industry" required>
                         </div>
                     </div>
 
@@ -125,6 +107,11 @@ layout: article.hbt
                                 <select name="reason" required>
                                     <option>Please Choose:</option>
                                     <option value="$0 - 5MM">$0 - 5MM</option>
+                                    <option value="$5 - 10MM">$5 - 10MM</option>
+                                    <option value="$10 - 25MM">$10 - 25MM</option>
+                                    <option value="$25 - 50MM">$25 - 50MM</option>
+                                    <option value="$50 - 100MM">$50 - 100MM</option>
+                                    <option value="$100MM">$100MM+</option>
                                 </select>
                             </div>
                         </div>
@@ -136,9 +123,11 @@ layout: article.hbt
                             <div class="select">
                                 <select name="reason" required>
                                     <option>Please Choose:</option>
-                                    <option>Interested in becoming a distributor</option>
-                                    <option>Interested in more product information</option>
-                                    <option>Other</option>
+                                    <option value="0 - 100">0-100</option>
+                                    <option value="101 - 250">101-250</option>
+                                    <option value="251 - 500">251-500</option>
+                                    <option value="501 - 1000">501-1000</option>
+                                    <option value="1000+">1000+</option>
                                 </select>
                             </div>
                         </div>
@@ -147,7 +136,7 @@ layout: article.hbt
                     <div class="field">
                         <label for="message" class="label">Automated Project Description</label>
                         <div class="control">
-                            <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
+                            <textarea name="message" class="textarea" placeholder="Please describe your project"></textarea>
                         </div>
                     </div>
                     
@@ -158,7 +147,7 @@ layout: article.hbt
 
                     <div class="field is-grouped">
                         <div class="control">
-                            <button class="button btn-submit" type="submit">Submit</button>
+                            <button class="btn-cta" type="submit">Submit</button>
                         </div>
                     </div>
 

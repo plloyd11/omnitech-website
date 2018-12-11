@@ -88,6 +88,10 @@
   margin-bottom: 20px;
 }
 
+.mt20 {
+  margin-top: 20px;
+}
+
 .mb40 {
   margin-bottom: 40px;
 }
@@ -115,4 +119,12 @@
   @include mq(medium) {
     display: block;
   }
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: $primary-color;
 }
