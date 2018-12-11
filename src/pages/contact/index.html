@@ -44,7 +44,125 @@ layout: article.hbt
             <div class="contact_container--info">
                 <h2>Have an Automation Project?</h2>
                 <p class="pSpacing">Please fill out the form below to have an Omnitech Sales Engineer contact you to discuss your project.</p>                  
-                <h4>I'll be a form!</h4>
+                <form name="contact-form" action="/thank-you" netlify netlify-honeypot="bot-field">
+                    <div class="field">
+                        <label class="label" for="name">Name</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input name="name" class="input" type="text" placeholder="First and Last Name" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="title">Title</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input name="title" class="input" type="text" placeholder="Title" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="phone">Phone Number</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input name="phone" class="input" type="number" placeholder="Phone Number" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="email">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input name="email" class="input" type="email" placeholder="Email Address" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="company">Company Name</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input name="company" class="input" type="text" placeholder="Title" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="industry">Industry</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input name="industry" class="input" type="text" placeholder="Title" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="reason" class="label">Company Type</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="reason" required>
+                                    <option>Please Choose:</option>
+                                    <option>Public</option>
+                                    <option>Private</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="reason" class="label">Annual Revenue (In Millions)</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="reason" required>
+                                    <option>Please Choose:</option>
+                                    <option value="$0 - 5MM">$0 - 5MM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="reason" class="label">Number of Employees</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="reason" required>
+                                    <option>Please Choose:</option>
+                                    <option>Interested in becoming a distributor</option>
+                                    <option>Interested in more product information</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="message" class="label">Automated Project Description</label>
+                        <div class="control">
+                            <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="field is-hidden">
+                        <label>Don’t fill this out if you're human:</label>
+                        <input name="bot-field" />
+                    </div>
+
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button btn-submit" type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </div>
         <div class="contact_map">
