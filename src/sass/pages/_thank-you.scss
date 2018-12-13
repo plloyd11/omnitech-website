@@ -13,28 +13,32 @@
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         @include mq (small) {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
             -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                    justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
             display: grid;
             grid-gap: 50px;
             grid-template-columns: 1fr 1fr;
             -webkit-box-align: start;
-                -ms-flex-align: start;
-                    align-items: flex-start;
+            -ms-flex-align: start;
+            align-items: flex-start;
         }
 
         img {
@@ -51,14 +55,14 @@
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         img {
             margin-bottom: 20px;
@@ -72,8 +76,8 @@
         @include mq(small) {
             -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
         }
     }
 }
