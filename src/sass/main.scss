@@ -10,6 +10,8 @@
 
 // 2. Vendors
 @import
+  '../../node_modules/bulma/sass/utilities/_all.sass',
+  '../../node_modules/bulma/sass/elements/form.sass',
   'vendor/faq',
   'vendor/slider',
   'vendor/gallery',
@@ -49,4 +51,5 @@
   'pages/gallery',
   'pages/about',
   'pages/capabilities',
+  'pages/thank-you',
   'pages/products';

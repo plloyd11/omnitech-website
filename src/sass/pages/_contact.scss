@@ -2,26 +2,33 @@
     .content-page_hero {
         @include content-hero-img(url('/img/contact-hero.jpg'));
     }
+
     &_container {
         display: flex;
         flex-direction: column;
+
         @include mq(medium) {
             flex-direction: row;
         }
+
         >div {
             padding: 1.5em .35em;
             flex: 1;
+
             @include mq(small) {
                 padding: 3em 2.25em;
             }
+
             h2 {
                 font-size: 32px;
             }
         }
+
         &--icons {
             >div {
                 margin-bottom: 20px;
                 display: flex;
+
                 img {
                     width: 25px;
                     height: 25px;
@@ -30,18 +37,20 @@
             }
         }
     }
+
     &_map {
         margin: 2em 0 0;
-    }
-    .mailLink {
-        &:hover {
-            color: hsl(358, 53%, 34%);
-        }
     }
 }
 
 #form1 {
     .submit {
         background: red;
+    }
+}
+
+.mailLink {
+    &:hover {
+        color: hsl(358, 53%, 34%);
     }
 }

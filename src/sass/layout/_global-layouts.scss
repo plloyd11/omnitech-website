@@ -258,6 +258,13 @@
     align-items: center;
 
     @include mq(medium) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         display: grid;
         grid-gap: 75px;
         grid-template-columns: minmax(480px, 1fr) 2fr;
@@ -277,6 +284,8 @@
     align-items: center;
 
     @include mq(medium) {
+        display: flex;
+        flex-direction: row;
         display: grid;
         grid-gap: 75px;
         grid-template-columns: 2fr minmax(480px, 1fr);
@@ -294,6 +303,9 @@
         -webkit-box-ordinal-group: inherit;
         -ms-flex-order: inherit;
         order: inherit;
+        -webkit-box-flex: 1;       
+        -ms-flex: 1;        
+        flex: 1;
     }
 
     h3 {
@@ -320,6 +332,9 @@
         -webkit-box-ordinal-group: inherit;
         -ms-flex-order: inherit;
         order: inherit;
+        -webkit-box-flex: 1;       
+        -ms-flex: 1;        
+        flex: 1;
     }
 }
 
@@ -359,4 +374,5 @@
 .align-center {
     -ms-flex-item-align: center;
     align-self: center;
+    margin: 0 auto;
 }

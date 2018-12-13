@@ -43,26 +43,117 @@ layout: article.hbt
             </div>
             <div class="contact_container--info">
                 <h2>Have an Automation Project?</h2>
-                <p class="pSpacing">Please fill out the form below to have an Omnitech Sales Engineer contact you to discuss your project.</p>
-                <div id="wufoo-z8y30dz17nn2gf"></div>
-                <script type="text/javascript">var z8y30dz17nn2gf;(function(d, t) {
-                    var s = d.createElement(t), options = {
-                    'userName':'omnitechautomation',
-                    'formHash':'z8y30dz17nn2gf',
-                    'autoResize':true,
-                    'height':'963',
-                    'async':true,
-                    'host':'wufoo.com',
-                    'header':'show',
-                    'ssl':true};
-                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                    s.onload = s.onreadystatechange = function() {
-                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                    try { z8y30dz17nn2gf = new WufooForm();z8y30dz17nn2gf.initialize(options);z8y30dz17nn2gf.display(); } catch (e) {}};
-                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                    })(document, 'script');
-                </script>
+                <p class="pSpacing">Please fill out the form below to have an Omnitech Sales Engineer contact you to discuss your project.</p>                  
+                <form name="contact-form" action="/thank-you" netlify netlify-honeypot="bot-field">
+                    <div class="field">
+                        <label class="label" for="name">Name</label>
+                        <div class="control">
+                            <input name="name" class="input" type="text" placeholder="First and Last Name" required>
+                        </div>
+                    </div>
+
+                    <input type="text" name="subject" value="OAI Website_New Project" hidden>
+
+                    <div class="field">
+                        <label class="label" for="title">Title</label>
+                        <div class="control">
+                            <input name="title" class="input" type="text" placeholder="Title" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="phone">Phone Number</label>
+                        <div class="control">
+                            <input name="phone" class="input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Example: 555-555-5555" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="email">Email</label>
+                        <div class="control ">
+                            <input name="email" class="input" type="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="company">Company Name</label>
+                        <div class="control ">
+                            <input name="company" class="input" type="text" placeholder="Name of company" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="industry">Industry</label>
+                        <div class="control ">
+                            <input name="industry" class="input" type="text" placeholder="Industry">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="company-type" class="label">Company Type</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="company-type" required>
+                                    <option value="">Please Choose:</option>
+                                    <option>Public</option>
+                                    <option>Private</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="revenue" class="label">Annual Revenue (In Millions)</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="revenue" required>
+                                    <option value="">Please Choose:</option>
+                                    <option value="$0 - 5MM">$0 - 5MM</option>
+                                    <option value="$5 - 10MM">$5 - 10MM</option>
+                                    <option value="$10 - 25MM">$10 - 25MM</option>
+                                    <option value="$25 - 50MM">$25 - 50MM</option>
+                                    <option value="$50 - 100MM">$50 - 100MM</option>
+                                    <option value="$100MM">$100MM+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="employees" class="label">Number of Employees</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="employees" required>
+                                    <option value="">Please Choose:</option>
+                                    <option value="0 - 100">0-100</option>
+                                    <option value="101 - 250">101-250</option>
+                                    <option value="251 - 500">251-500</option>
+                                    <option value="501 - 1000">501-1000</option>
+                                    <option value="1000+">1000+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="message" class="label">Automated Project Description</label>
+                        <div class="control">
+                            <textarea name="message" class="textarea" placeholder="Please describe your project" required></textarea>
+                        </div>
+                    </div>
                     
+                    <div class="field is-hidden">
+                        <label for="bot-field">Don’t fill this out if you're human:</label>
+                        <input name="bot-field" />
+                    </div>
+
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="btn-cta" type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </div>
         <div class="contact_map">
