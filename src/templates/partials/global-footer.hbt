@@ -24,7 +24,7 @@
         <div class="global--footer-contact">
             <h3 class="footer-header">Contact</h3>
             <div>
-                <img src="/img/icons/map-pin.svg" alt="">
+                <img src="/img/icons/map-pin.svg" alt="Map Pin">
                 <div class="global--footer-contact-info">
                     <p>OMNITECH Automation, Inc.</p>
                     <p>316 Wood Street</p>
@@ -45,5 +45,5 @@
             </div>
         </div>
     </div>
-    <small class="txt-center">Copyright © 2018 Omnitech Automation. All rights reserved.</small>
+    <small class="txt-center">Copyright © 2019 Omnitech Automation. All rights reserved.</small>
 </footer>

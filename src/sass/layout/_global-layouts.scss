@@ -68,6 +68,12 @@
     }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .global--content_text {
+       margin-left: 36px;
+       margin-right: 36px;
+    }
+ }
 
 // HR Spacers
 .hr-content_horizontal {
@@ -275,6 +281,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;    
+    -ms-flex-pack: justify;    
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -356,6 +365,13 @@
         }
     }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .article--block_text {
+       margin-left: 24px;
+       margin-right: 24px;
+    }
+ }
 
 // Grid Helpers
 
