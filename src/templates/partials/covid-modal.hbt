@@ -1,0 +1,35 @@
+<section class="covidModal" x-show.transition.duration.700ms="open" @click.away="open = false">
+  <div class="covidModal--image">
+    <img src="/img/american-flag.jpg" alt="American Flag">
+  </div>
+  <div class="covidModal--content" >
+    <header>
+      <h3>A message from Omnitech</h3>
+      <div @click="open = false">
+        <svg class="covidModal--close" fill="none" viewBox="0 0 12 12">
+          <path stroke="#212B35" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75" d="M.375 11.6245L11.625.374496M11.625 11.6245L.375.374496" />
+        </svg>
+      </div>
+    </header>
+    <img src="/img/about/about-hero.jpg" alt="">
+    <p>
+      <span class="covidModal--red">Americans are built tough.</span> Although there’s a lot in our day-to-day lives that divides us, when we’re
+      being attacked, we come together, we fight as a united team. We win.
+    </p>
+    <p>
+      <span class="covidModal--bold">To our employees</span>, their families, friends, and neighbors, we pray for your safety.
+    </p>
+    <p>
+      <span class="covidModal--bold">To the healthcare workers</span> across the United States, we will forever be indebted to you for the
+      sacrifices you are making to keep our country safe and heal the sick.
+    </p>
+    <p>
+      <span class="covidModal--bold">To our customers</span>, and the manufacturers across the country, we’re here for you, to support
+      your business - now - and in the future, when our country starts healing, our economy rebounds, and you’re ready to grow your business
+      with the help of <span class="covidModal--red">U.S. partners like Omnitech</span>, who build automated equipment to allow you to produce
+      your <span class="covidModal--blue">products right here in the United States</span>.
+    </p>
+  </div>
+</section>
+
+<div class="covidOverlay" x-show="open"></div>  

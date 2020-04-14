@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" x-data="{ open: true }">
 
 {{> head }}
 
-<body>
+<body x-bind:class="{ 'noverflow': open }">
 
   {{> global-nav }}
+
+  {{> covid-modal }}
 
   {{{ contents }}}
 
