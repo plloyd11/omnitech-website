@@ -1,0 +1,70 @@
+.newsletter {
+  .content-page_hero {
+    @include content-hero-img(url('/img/newsletter/newsletter-hero-mobile.jpg'));
+
+    @include mq(medium) {
+      @include content-hero-img(url('/img/newsletter/newsletter-hero.jpg'));
+    }
+
+    height: 400px !important;
+  }
+
+  &--section-title {
+    margin-bottom: 24px;
+    display: flex;
+    border-bottom: 2px solid #D33E43;
+
+    &_svg {
+      margin-right: 8px;
+      width: 32px;
+      height: 32px;
+    }
+
+    h2 {
+      margin-bottom: 8px;
+    }
+  }
+
+  &--header {
+    h3 {
+      font-size: 22px;
+      font-weight: 400;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      margin-bottom: 24px;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+  }
+
+  &--hr {
+    margin: 24px 0 48px 0;
+    border: .25px solid #e6e6e6;
+  }
+
+  &--new-project {
+    &_details {
+      p {
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+    }
+
+    &_thumbnails {
+      margin-top: 20px;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+
+      >img {
+        grid-column: span 4 / span 4;
+      }
+    }
+  }
+
+}

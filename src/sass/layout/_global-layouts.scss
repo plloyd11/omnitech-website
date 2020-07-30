@@ -366,6 +366,10 @@
     }
 }
 
+.article--block--extraContent {
+    grid-template-columns: minmax(580px, 1fr) 2fr;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .article--block_text {
        margin-left: 24px;
