@@ -1,12 +1,41 @@
 .newsletter {
   .content-page_hero {
-    @include content-hero-img(url('/img/newsletter/newsletter-hero-mobile.jpg'));
+    @include content-hero-img(url('/img/newsletter/newsletter-hero.jpg'));
 
     @include mq(medium) {
       @include content-hero-img(url('/img/newsletter/newsletter-hero.jpg'));
     }
+    min-height: 350px !important;
+    height: 200px !important;
+    p {
+      font-style: normal;
+    }
+  }
 
-    height: 400px !important;
+  &--masthead {
+    &_title {
+      padding-bottom: 64px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      &--hr {
+        width: 380px;
+        border-bottom: 1px solid #9FA6B2;
+      }
+    }
+    &_content {
+      p {
+        &:first-of-type {
+          margin-top: 18px;
+          margin-bottom: 24px;
+        }
+        &:last-of-type {
+          font-size: 24px;
+          text-align: center;
+          font-weight: 600;
+        }
+      }
+    }
   }
 
   &--section-title {
