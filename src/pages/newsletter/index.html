@@ -77,7 +77,7 @@ layout: article.hbt
             </svg>
             <h2>New Project Spotlight</h2>
         </div>
-        <div class="article--block_tl article--block--extraContent">
+        <div class="article--block_tl">
             <div class="article--block_text">
                 <div class="newsletter--header">
                     <h3>AUTOMATED CONTAINER‐FILLING SYSTEM</h3>
@@ -104,12 +104,18 @@ layout: article.hbt
                     </ul>
                 </div>
             </div>
-            <div class="article--block_img">
-                <img src="/img/newsletter/new-project-1.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+            <div x-data="{ image: 'image1' }" class="article--block_img">
+                <div>
+                    <img x-show="image === 'image1'" src="/img/newsletter/new-project-1.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img x-show="image === 'image2'" src="/img/newsletter/new-project-2.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img x-show="image === 'image3'" src="/img/newsletter/new-project-3.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img x-show="image === 'image4'" src="/img/newsletter/new-project-4.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                </div>
                 <div class="newsletter--new-project_thumbnails">
-                    <img src="/img/newsletter/new-project-1.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
-                    <img src="/img/newsletter/new-project-1.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
-                    <img src="/img/newsletter/new-project-1.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img @click.prevent="image = 'image1'" :class="{ 'border-active' : image === 'image1' }" src="/img/newsletter/new-project-1.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img @click.prevent="image = 'image2'" :class="{ 'border-active' : image === 'image2' }" src="/img/newsletter/new-project-2.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img @click.prevent="image = 'image3'" :class="{ 'border-active' : image === 'image3' }" src="/img/newsletter/new-project-3.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
+                    <img @click.prevent="image = 'image4'" :class="{ 'border-active' : image === 'image4' }" src="/img/newsletter/new-project-4.jpg" alt="Budgetary Estimate" class="img-responsive img-decorated">
                 </div>
             </div>
         </div>
