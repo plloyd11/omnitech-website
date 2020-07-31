@@ -1,14 +1,24 @@
 .newsletter {
   .content-page_hero {
     @include content-hero-img(url('/img/newsletter/newsletter-hero.jpg'));
-
+    min-height: 250px !important;
+    height: 180px !important;
     @include mq(medium) {
       @include content-hero-img(url('/img/newsletter/newsletter-hero.jpg'));
+      min-height: 350px !important;
+      height: 200px !important;
     }
-    min-height: 350px !important;
-    height: 200px !important;
+    h1 {
+      text-shadow: 2px 2px 2px #000;
+      letter-spacing: 2px;
+    }
     p {
+      font-size: 16px;
       font-style: normal;
+      color: #dadada;
+      @include mq(small) {
+        font-size: 20px;
+      }
     }
   }
 
