@@ -19,6 +19,14 @@
       @include mq(small) {
         font-size: 20px;
       }
+      &:last-of-type {
+        margin-top: 8px;
+      }
+      br {
+        @include mq(small) {
+          display: none;
+        }
+      }
     }
   }
 
