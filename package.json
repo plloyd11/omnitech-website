@@ -45,7 +45,7 @@
     "metalsmith-layouts": "^1.8.1",
     "metalsmith-markdown": "^1.1.0",
     "natives": "^1.1.6",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "npm": "^6.5.0",
     "tinify": "^1.4.0"
   }
