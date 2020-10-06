@@ -44,7 +44,7 @@ layout: article.hbt
             <div class="contact_container--info">
                 <h2>Have an Automation Project?</h2>
                 <p class="pSpacing">Please fill out the form below to have an Omnitech Sales Engineer contact you to discuss your project.</p>
-                <form name="contact-form" action="/thank-you" netlify netlify-honeypot="bot-field">
+                <form name="contact-form" action="/thank-you" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true">
                     <div class="field">
                         <label class="label" for="name">Name</label>
                         <div class="control">
@@ -167,6 +167,8 @@ layout: article.hbt
                         <label for="bot-field">Don’t fill this out if you're human:</label>
                         <input name="bot-field" />
                     </div>
+
+                    <div data-netlify-recaptcha="true"></div>
 
                     <div class="field is-grouped">
                         <div class="control">
