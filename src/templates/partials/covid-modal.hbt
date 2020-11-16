@@ -1,10 +1,10 @@
 <section class="covidModal" x-show.transition.duration.700ms="open" @click.away="open = false">
   <div class="covidModal--image">
-    <img src="/img/american-flag.jpg" alt="American Flag">
+    <img src="/img/hiring-modal.jpg" alt="Omnitech employee welding in the main warehouse">
   </div>
   <div class="covidModal--content">
     <header>
-      <h3>A message from Omnitech</h3>
+      <h3>Omnitech is growing!</h3>
       <div @click="open = false">
         <svg class="covidModal--close" fill="none" viewBox="0 0 12 12">
           <path stroke="#212B35" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"
@@ -13,16 +13,16 @@
       </div>
     </header>
     <img src="/img/about/about-hero.jpg" alt="">
-    <h4>COVID-19 STATUS UPDATE: OMNITECH IS HERE TO HELP</h4>
-    <p>Here at OMNITECH Automation, we are committed to the safety and health of our employees,
-      while providing a high level of service to you, our valued customer.</p>
-    <p>As an essential business, we continue to work uninterrupted and provide full support to our
-      current customers. OMNITECH’s mission is to improve our customer’s productivity,
-      competitiveness, and profitability. Given the current restrictions put in place, our methods have
-      changed, but not our dedication to the mission of supporting our customers.</p>
-    <p>All members of our Team are available by phone, email or a live video-chat to provide technical
-      support or discuss any immediate or future projects you are considering.</p>
-    <p>Please <a href="mailto:general_info@oai-automation.com">Contact Us</a> to discuss how we can help you!</p>
+    <p>We are a turnkey solutions provider with in-house engineering, fabrication, and controls. For over 55 years, we have been developing custom automated equipment for companies including Lutron, Stanley, East Penn Manufacturing (Deka Battery), and Johnson and Johnson.</p>
+    <p>If you enjoy working in a fast-paced, fun environment with cutting-edge technologies, we’d love to hear from you!</p>
+    <p>We are looking to fill the following positions:</p>
+    <ul>
+        <li>CNC Machinist</li>
+        <li>Assembly Technician</li>
+        <li>Mechanical Designer</li>
+        <li>Design Department Manager</li>
+    </ul>
+    <p>If you are interested in joining our family, please send your resume to <a href="mailto:kclark@oai-automation.com">kclark@oai-automation.com</a></p>
   </div>
 </section>
 

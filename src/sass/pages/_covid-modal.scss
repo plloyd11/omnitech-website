@@ -21,7 +21,7 @@
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(12, minmax(0, 1fr));
-    top: 10em;
+    top: 8em;
     left: calc(50% - 550px);
   }
 
@@ -41,8 +41,8 @@
     margin: 0;
 
     header {
-      padding-bottom: 8px;
-      margin-bottom: 12px;
+      padding-bottom: 6px;
+      margin-bottom: 8px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -60,15 +60,19 @@
     }
 
     h4 {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
-      margin-bottom: 6px;
+      margin-bottom: 4px;
       text-align: center;
     }
 
-    p {
+    ul {
+        margin-bottom: 8px;
+    }
+
+    p, li, a {
       line-height: 1.25;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       font-size: 16px;
 
       &:last-of-type {
