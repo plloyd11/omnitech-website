@@ -37,7 +37,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "gsap": "^2.0.2",
+    "gsap": "^3.6.0",
     "handlebars": "^4.1.1",
     "marked": "^0.5.2",
     "metalsmith": "^2.2.0",
