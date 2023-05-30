@@ -7,8 +7,6 @@
 
   {{> global-nav }}
 
-  {{> covid-modal }}
-
   {{{ contents }}}
 
   {{> global-footer }}
