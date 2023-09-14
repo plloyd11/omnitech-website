@@ -3,7 +3,7 @@
 
 {{> head }}
 
-<body x-bind:class="{ 'noverflow': open }">
+<body>
 
   {{> global-nav }}
 
